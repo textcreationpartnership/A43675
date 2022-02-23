@@ -1,0 +1,875 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Speculum beatae virginis a discourse of the due praise and honour of the Virgin Mary / by a true Catholick of the Church of England.</title>
+            <author>Hickes, George, 1642-1715.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1686</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 120 KB of XML-encoded text transcribed from 23 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A43675</idno>
+            <idno type="STC">Wing H1869</idno>
+            <idno type="STC">ESTC R10946</idno>
+            <idno type="EEBO-CITATION">11821403</idno>
+            <idno type="OCLC">ocm 11821403</idno>
+            <idno type="VID">49583</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A43675)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 49583)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 496:33)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Speculum beatae virginis a discourse of the due praise and honour of the Virgin Mary / by a true Catholick of the Church of England.</title>
+                  <author>Hickes, George, 1642-1715.</author>
+               </titleStmt>
+               <extent>[8], 39 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed, and are to be sold by Randal Taylor ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1686.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Mary, --  Blessed Virgin, Saint.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-12</date>
+            <label>Jayanthi Reddy</label>Sampled and proofread</change>
+         <change>
+            <date>2011-12</date>
+            <label>Jayanthi Reddy</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="license">
+            <pb facs="tcp:49583:1"/>
+            <p>IMPRIMATUR.</p>
+            <closer>
+               <signed>
+                  <hi>C. Alſton</hi> R. P. D. <hi>Hen.</hi> Epiſc. <hi>Lond.</hi> à Sacris.</signed>
+               <dateline>
+                  <date>
+                     <hi>Martii</hi> 26. 1686.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:49583:1" rendition="simple:additions"/>
+            <p>SPECULUM BEATAE VIRGINIS.</p>
+            <p>A DISCOURSE OF THE DUE PRAISE AND HONOUR OF THE Virgin Mary.</p>
+            <p>
+               <hi>By a true</hi> CATHOLICK <hi>of the Church of</hi> ENGLAND.</p>
+            <p>
+               <hi>LONDON,</hi> Printed, and are to be Sold by <hi>Randal Taylor,</hi> near Stationers-Hall, 1686.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:49583:2"/>
+            <pb facs="tcp:49583:2"/>
+            <head>THE PREFACE.</head>
+            <p>THE chief End for which I undertook to make this following Diſcourſe, was to ſet before the <hi>Engliſh</hi> Reader a proſpect of the Devotions, which the Church of <hi>Rome</hi> pays, and allows to be paid to the <hi>Bleſſed Virgin,</hi> and to give him thereby an opportunity of judg<g ref="char:EOLhyphen"/>ing, Whether the R. Catholicks do indeed no more, than <hi>pray to the Saints in Heaven, as they do to their Brethren upon earth, to pray for them in the Name, and Mediation of Jeſus Chriſt.</hi>
+            </p>
+            <p>This is the Summ of the late Apologies for Worſhipping of Saints, and whether in reality it be ſo, or no, among them, I leave the candid, and honeſt Reader, of what Re<g ref="char:EOLhyphen"/>ligion ſoever, to judg. They have no reaſon to be offended at me for my <g ref="char:V">Ʋ</g>ndertaking, for if their Devotions to the <hi>Virgin</hi> be good, and Orthodox, I have done them, and their Church no diſhonour; but if they be not, however I have done them no wrong: for I have not <hi>miſrepreſented</hi> their Prayers, and Hymns, and Antiphones, nor put any falſe Colours upon the uſe of them, but have preſented them, as they are in themſelves, and treated thoſe that uſe them without any provoking, or reproachful Language; and perhaps many, that at firſt ſight cannot read ſuch offenſive Devotions without Indignation, will think I have treated the <hi>Virgins Votaries</hi> too gently, and ſaid rather too little, than too much.</p>
+            <p>But what may perhaps juſtly move their Paſſions, will not move mine, who am uſed to read the <hi>Latin Offices,</hi>
+               <pb facs="tcp:49583:3"/> and other allowed Books of Devotion among thoſe of the <hi>Latin Communion,</hi> and I think fit alſo to acquaint the Reader, that I could have proved from their moſt Authen<g ref="char:EOLhyphen"/>tick Prayers to <hi>other Saints,</hi> as well, as to the Virgin, that they do more, <hi>than deſire the Saints to pray for them,</hi>
+               <note place="margin">Hymn. <hi>Beate paſtor Petre.</hi> in Brev. Rom. D. 28. Jan. &amp; ali<g ref="char:EOLhyphen"/>bi. Hymn. <hi>Tu natale ſolum protege.</hi> Brev. Rom. in Feſto S. Martinae. Antiph. <hi>Michael Archangele veni in adjutorium po<g ref="char:EOLhyphen"/>pulo Dei.</hi> Brev. Rom. in Feſt. S. Mich. Hymn. <hi>
+                     <g ref="char:V">Ʋ</g>t queant laxis.</hi> Brev. Rom. in Nat. S. J. Bapt. Hymn. <hi>Egregie Doctor Paule.</hi> Br. Rom. Die 29. Jan. Orat. <hi>Deus cujus dexterâ.</hi> Br. Rom. D. 6. Jul. Orat <hi>Omnipotens, &amp; miſericors Deus.</hi> Br. Rom. D. 14. Jul. Hymn. <hi>Regis ſuperni nuntia.</hi> Brev. Rom. in Feſto S. Tireſiae. Hymn <hi>Placarc Chriſte Servulis.</hi> Br. Rom. in Feſto omnium Sanctor. Et Orat. <hi>Sempiterne Deus.</hi> ibid. Et Hymn. <hi>Salutis aeternae dator.</hi> ibid. in tert. Nocturn. Orat. <hi>Sacrificium noſtrum.</hi> Miſſal. in Feſt. S. Andraeae.</note> 
+               <hi>as ſick men deſire the Prayers of the Congre<g ref="char:EOLhyphen"/>gation,</hi> as any indifferent perſon will be ſatisfied they do, if he pleaſe to conſult the Hymns and Prayers cited in the Margin.</p>
+            <p>Since I finiſhed this Diſcourſe, I met with another <hi>Hymn</hi> made of the <hi>Te Deum,</hi> to the Bleſſed Virgin, which is a more exact Tranſproſal of it, than that I have cited out of Cardinal <hi>Bonaventure.</hi>
+            </p>
+            <p>I ſhall here ſet it down, almoſt <hi>verbatim,</hi> as I find it tranſlated in a little <note n="*" place="margin">
+                  <hi>Entituled.</hi> A Decree of our Holy Fa<g ref="char:EOLhyphen"/>ther Pope <hi>Inno<g ref="char:EOLhyphen"/>cent XI.</hi> &amp;c.</note> book Printed at <hi>Oxford, 1678.</hi>
+            </p>
+            <p>
+               <hi>We praiſe thee,</hi> O Mary: <hi>we acknowledge thee to be the Lady. All the earth doth worſhip thee: the Mother of the everlaſting God. To thee all Angels cry aloud: the Heavens and all the powers therein. To thee Cherubim, and Seraphim: continually do cry. Holy, venerable, wonderful: Mother of the Lord God of Sabbaoth. Heaven, and earth are full: of the fruitfulneſs of thy Virginity. The glorious company of the Apoſtles: praiſe thee. The goodly number of the Prophets: praiſe thee. The holy Church throughout the world: doth acknowledge thee. The Mother: of infinite Majeſty. Thine honourable, true: and only Son. Conceived by the Holy Ghoſt: the Comforter. Thou art the Queen of Glory: O</hi>
+               <pb facs="tcp:49583:3"/> Mary. <hi>Thou art the true Mother: of the Son of the Everlaſting Father. When he took upon him to de<g ref="char:EOLhyphen"/>liver man: thou didſt afford him thy Virgin-womb. Thy Seed having overcome the ſharpneſs of death: the Kingdom of Heaven is open to all believers. Thou ſitteſt at the right hand of thy Son: in the glory of the Mother. We believe, that thou ſhalt come: with thy Son the Judg. We therefore pray thee help thy Vo<g ref="char:EOLhyphen"/>taries: whom thy Son hath redeemed with the pre<g ref="char:EOLhyphen"/>cious blood he had from thee. Make them to be num<g ref="char:EOLhyphen"/>bred with the Saints of God: in eternal glory.</hi> O La<g ref="char:EOLhyphen"/>dy <hi>ſave thy people, and bleſs thy Sons inheritance. Day by day: we magnifie thee. And we worſhip thy name: ever world without end. Vouchſafe,</hi> O Lady: <hi>to keep us this day without ſin.</hi> O Lady, <hi>have mercy upon us: have mercy upon us.</hi> O Lady, <hi>let thy mercy lighten upon us: as our truſt is in thee. O</hi> Mary, <hi>in thee have I truſted after God: let me ne<g ref="char:EOLhyphen"/>ver be confounded.</hi>
+            </p>
+            <p>The Publiſher of the forecited Book took the Original of this Hymn, out of a book written by <hi>Melchior Incho<g ref="char:EOLhyphen"/>fer</hi> a Jeſuit, which that Father ſaith was ſent to the <hi>Meſſeneſes</hi> by the Bleſſed Virgin, and he thinks it was the ſame, or not much differing from that, which <hi>Pope Paul</hi> the <hi>Fifth</hi> approved, and which the preſent Pope hath prohibited, and ſuppreſſed by a Decree. It is a de<g ref="char:EOLhyphen"/>cree worthy of his holy Character, and I wiſh for his ho<g ref="char:EOLhyphen"/>nour he had prohibited it as Impious, or Blaſphemous, or Idolatrous, or contrary to the word of God. However the bare prohibition of it ought to be acknowledged for a good work, and I beſeech Almighty God to pour out the Spirit of Reforming more, and more upon the Biſhop, and Clergy of the <hi>Roman</hi> Church, that inſtead of Ex<g ref="char:EOLhyphen"/>pounding, Palliating, and Excuſing, they may ſet them<g ref="char:EOLhyphen"/>ſelves in good earneſt to Reform, and amend whatever is
+<pb facs="tcp:49583:4"/> amiſs, that ſo the <hi>Church,</hi> whereſoever diſperſed over the <g ref="char:V">Ʋ</g>niverſal World, may be reſtored to the truly An<g ref="char:EOLhyphen"/>cient, Catholick, and Apoſtolical Doctrine, Worſhip, and Diſcipline, and become one undivided Catholick Communion, through <hi>Jeſus</hi> Chriſt our Lord. <hi>Amen.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb n="1" facs="tcp:49583:4"/>
+            <head>SPECULUM BEATAE VIRGINIS.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>S. LUKE I. 28.</hi>
+                  </bibl>
+                  <p>And the Angel came in unto Her, and ſaid, Hail, thou that art highly favour<g ref="char:EOLhyphen"/>ed, the Lord is with Thee, Bleſſed art thou among Women.</p>
+               </q>
+            </epigraph>
+            <p>THE words of my Text are the Salutation of the Angel <hi>Gabriel,</hi> unto the Virgin <hi>Mary,</hi> when he came to tell her, that God had choſen her to be the Mother of the <hi>Meſſias.</hi> And that they are words of pure Salutation, and not of Devotion, is evident from the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, Hail, which is a form of Saluting, as may be ſeen in thoſe two mock-ſalutations of our Lord, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, Hail Maſter, Hail King of the <hi>Jews;</hi> as likewiſe from the uſe of the Original word, in <hi>Acts</hi> 15.23. where it is ſaid, that <hi>the Apoſtles and Elders wrote Letters, and ſent greeting to the Brethren, in</hi> Antioch, Syria, <hi>and</hi> Cilicia.</p>
+            <p>It is alſo evident that theſe are words of mere Salutation, from what the Evangeliſt ſaith in the next Verſe, that upon hearing of them <hi>ſhe was troubled at his ſaying, and caſt in her mind, what manner of SAL<g ref="char:V">Ʋ</g>TATION this ſhould be.</hi> It ſeemed ſtrange to her, that an Angel ſhould appear to her in an Age, when Viſions and Apparitions were grown ſo rare, and that ſhe ſhould be accoſted by him with a joyful and a gracious Salutation, which was ſo much above the humble
+<pb n="2" facs="tcp:49583:5"/> opinion ſhe had of her ſelf. Her modeſty encreaſed her won<g ref="char:EOLhyphen"/>der, and in a mixture of fear and ſurprize together, ſhe be<g ref="char:EOLhyphen"/>gan to think within her ſelf, what the meaning of the Saluta<g ref="char:EOLhyphen"/>tion might be, whither it would tend, and what the Angel had to ſay unto her. She was very ſolicitous betwixt hope and fear, to know what meſſage he had to deliver, after his kind Salutation, and while ſhe was muſing what it might be, he ſaid unto her, <hi>Fear not</hi> Mary, <hi>for thou haſt found favour with God, and behold thou ſhalt conceive in thy Womb, and bring forth a Son, and ſhalt call his name</hi> Jeſus; <hi>He ſhall be great, and ſhall be called the Son of the Higheſt; And the Lord ſhall give unto him the Throne of his Father David, and he ſhall Reign over the houſe of</hi> David <hi>for ever, and of his Kingdom there ſhall be no end.</hi>
+            </p>
+            <p>Theſe are the words of the <hi>Annunciation</hi> or Meſſage of the Angel, but I ſhall keep ſtrictly to the words of his Salutation. And in treating of them I ſhall ſhew,</p>
+            <p n="1">1. That there is nothing in their ſignification ſo peculiar to the B. Virgin, but that they might have been uſed by the An<g ref="char:EOLhyphen"/>gel, in ſaluting any other Righteous and Holy perſon.</p>
+            <p n="2">2. That the B. Virgin, to whom the Angel ſpake then, was a very Holy perſon.</p>
+            <p n="3">3. That ſhe ought to be honoured, and celebrated, and praiſed for her great Holineſs, and for being choſen to be the Mother of God.</p>
+            <p n="4">4. That in honouring her we muſt take care that we do not honour her too much, or expreſs the honour we have for her in ſuch a manner as is not competible to a Creature.</p>
+            <p n="1">1. Firſt then I ſhall ſhew that the words of the Salutation have nothing ſo peculiar in their ſignification, but that they might have been uſed by the Angel in ſaluting any other Righ<g ref="char:EOLhyphen"/>teous perſon.</p>
+            <p>Thus for the Original word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which we render <hi>Hail,</hi> and the Vulgar Latin <hi>Ave,</hi> it was, as I have already ſhewn, a common form of Saluting among the <hi>Jews;</hi> and it farther appears to have been ſo from the ſecond Epiſtle of <hi>S. John, ver.</hi> 10, 11. where the Apoſtle forbidding to ſalute any man that denieth Chriſt to be come in the Fleſh, ſaith, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſay not <hi>Hail</hi> unto him; <hi>nec ave dixeritis,</hi> ſaith the Vulgar Tranſlation, <hi>bid him not God ſpeed; <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, qui enim dicit illi Ave,</hi> for he that ſaith <hi>Hail</hi> unto
+<pb n="3" facs="tcp:49583:5"/> him, or <hi>he that biddeth him God ſpeed, is partaker of his evil deeds.</hi>
+            </p>
+            <p>Thus God and Angels, when they ſpeak with men, uſe the phraſes, and ſpeak with the tongues of men. And ſo for that expreſſion, <hi>The Lord is with thee,</hi> or as it might be ren<g ref="char:EOLhyphen"/>dred, <hi>the Lord be with thee,</hi> it is the very form of ſpeech in which <hi>Boaz</hi> ſaluted the Reapers, <hi>Ruth</hi> 2.4. <hi>And</hi> Boaz <hi>came from Bethlehem, and ſaid unto the Reapers,</hi> The Lord be with you, <hi>and they anſwered him, The Lord bleſs thee.</hi>
+            </p>
+            <p>And ſo for that phraſe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>bleſſed art thou,</hi> or bleſſed be thou, <hi>among women,</hi> we have the very ſame form of ſpeech in <hi>Judges</hi> 5.24. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Bleſſed be</hi> Jael <hi>among women, the wife of</hi> Heber, <hi>bleſſed ſhall ſhe be above women in the Tent.</hi> So <hi>Boaz</hi> ſaid unto <hi>Ruth, Ruth</hi> 3.10. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Bleſſed be thou of the Lord my Daughter.</hi> And ſo 1 <hi>Sam.</hi> 25.33. ſaith <hi>David</hi> unto <hi>Abigal, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, bleſſed art thou which haſt kept me from ſhedding of bloud.</hi> And ſo ſaid <hi>Elizabeth</hi> unto the B. Virgin, <hi>ver.</hi> 42. of this Chapter, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>bleſſed art,</hi> or bleſſed be <hi>thou among women, and bleſſed is,</hi> or bleſſed be <hi>the fruit of thy womb.</hi>
+            </p>
+            <p>From all which I think it is plain, that all theſe expreſſions, <hi>Hail, The Lord is with thee,</hi> and <hi>bleſſed art thou amongſt wo<g ref="char:EOLhyphen"/>men,</hi> are not peculiar, but common forms of ſpeech, which were uſed in common converſation among the <hi>Jews.</hi>
+            </p>
+            <p>And then for that word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>thou that art highly favoured,</hi> the Verb from whence this Participle doth come, is uſed by <hi>S. Paul, Eph.</hi> 1.6. where it is written, <hi>to the praiſe and glory of his grace,</hi> wherein <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>he hath made us accepted in the beloved.</hi> The Vulgar Latin hath it, <hi>in quâ gratificavit nos,</hi> wherein he hath made us accepted. And ac<g ref="char:EOLhyphen"/>cordingly <hi>Theophylact</hi> ſaith, that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> in my Text, is explained by that expreſſion, <hi>ver.</hi> 10. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>thou haſt found favour with God,</hi> or thou haſt obtained favour of God. Now in this ſence of the word, as it ſignifies favoured or accepted, <hi>S. Paul</hi> doth in effect ſay, in the fore<g ref="char:EOLhyphen"/>cited place, that every true and faithful believer is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, favoured and accepted by God, or dear and acceptable to him in Chriſt. And this obſervation concerning the dear<g ref="char:EOLhyphen"/>neſs and acceptableneſs of all true believers unto God, is very agreeable to what our Lord replied to him who told him, that his Mother and his Brethren ſtood without, deſiring to
+<pb n="4" facs="tcp:49583:6"/> ſpeak with him. Our Saviour ſaith unto him, <hi>Who is my Mo<g ref="char:EOLhyphen"/>ther, and who are my Brethren?</hi> And then ſtretching forth his hands towards his Diſciples, he ſaid, <hi>Behold my Mother and my Brethren, for whoſoever ſhall do the will of my Father which is in Heaven,</hi> (the ſame is highly favoured) <hi>the ſame is my Bro<g ref="char:EOLhyphen"/>ther, and Siſter, and Mother.</hi>
+            </p>
+            <p>Wherefore there is nothing in this ſignification of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that might hinder an Angel from uſing it in ſaluting any true Diſciple of Chriſt; eſpecially if he were ſent to give him notice of ſome particular favour, that God intended to beſtow upon him, upon the ſpecial account whereof he might be ſaid <hi>to have found favour with God.</hi> Thus <hi>Noah</hi> was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as we read <hi>Gen.</hi> 6.8. <hi>He</hi> above all mankind <hi>found grace,</hi> or favour, <hi>in the eyes of the Lord,</hi> when he reſolved to deſtroy the world. It is in the Greek Tranſlation, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which is the very phraſe that <hi>Gabriel</hi> uſed to the Virgin, <hi>ver.</hi> 30. <hi>for thou haſt found favour with God.</hi> So <hi>Abraham</hi> was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or highly favoured of God, be<g ref="char:EOLhyphen"/>cauſe he of all mankind was choſen to be the Father of the faithful, and was called the friend of God. So <hi>Lot</hi> was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or highly favoured, becauſe God only ſpared him and <hi>his</hi> when he deſtroyed <hi>Sodom;</hi> and therefore ſaith he unto God, in this very phraſe which <hi>Gabriel</hi> uſed unto the B. Virgin, <hi>Behold thy ſervant hath found grace in thy ſight,</hi> Gen. 19.19. So alſo <hi>Moſes</hi> was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, becauſe he of all the <hi>Hebrews</hi> was choſen to be the deliverer of <hi>Iſrael,</hi> and the Mediator of the Old Teſtament, and had the ſpecial pri<g ref="char:EOLhyphen"/>viledge of ſpeaking to God, as a man doth to his friend face to face. Upon which account he ſaid unto him in this very phraſe in which his Angel ſpake unto the B. Virgin; <hi>I know thee by Name, and thou haſt found grace in my ſight,</hi> Gen. 33.12, 17.</p>
+            <p>The like might be ſaid of many other Saints, as well as of the B. Virgin; and accordingly <hi>S. Paul,</hi> who of a Perſecutor of the Church, had the honour to be choſen the Apoſtle of the Gentiles, ſaid 1 <hi>Cor.</hi> 15.10. <hi>by the grace</hi> or favour <hi>of God I am that I am.</hi> And therefore the title of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>thou that art highly favoured,</hi> as it is explained by <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>haſt found</hi> or obtained <hi>favour,</hi> hath nothing in its ſignification ſo ſingular to the B. Virgin, but that it may be applied to any other Saint, who hath received any ſpecial favour or honour from God.</p>
+            <pb n="5" facs="tcp:49583:6"/>
+            <p>But then there is another acceptation of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as the Verb <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> comes from <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, in that ſignification wherein it is taken for Vertue or Grace; and in this ſence it may be rendred, <hi>thou that art very gracious.</hi> And ſo it is rendred by the Vulgar Latin, <hi>Ave gratiâ plena, Hail thou that art full of grace,</hi> or vertue. And in this ſignification alſo there is nothing peculiar and ſingular in it, but what in equivalent terms hath been ſpoken of other Saints, as well as of the B. Virgin.</p>
+            <p>Thus it was ſaid of <hi>Noah,</hi> that <hi>he was a juſt man and perfect in his generation, Gen.</hi> 6.9. And when God called him into the Ark, he ſaid unto him, <hi>Come thou and all thy houſe into the Ark, for thee have I ſeen righteous before me in this generation.</hi> I ſuppoſe if the Angel had ſaid to the B. Virgin, <hi>Hail thou that art righteous before God, and perfect in thy generation,</hi> it would have been every jot as Emphatical, as to ſay, <hi>Ave gra<g ref="char:EOLhyphen"/>tiâ plena, Hail thou that art full of grace,</hi> and as good an Ar<g ref="char:EOLhyphen"/>gument to the full, to prove that ſhe was free from ſin. So the Lord himſelf gave this teſtimony of <hi>Job, chap.</hi> 2.3. <hi>That he was a perfect and an upright man, one that feared God and eſ<g ref="char:EOLhyphen"/>chewed evil, and that there was none like him in the Earth;</hi> which, conſidering who it was that ſpake it, I think implies as much innocence and perfection, as <hi>Ave gratiâ plena,</hi> out of the mouth of an Angel, Hail thou that art very gracious, or thou that art full of grace. So it is ſaid of <hi>Zacharias</hi> and <hi>Elizabeth,</hi> that <hi>they were both righteous before God, walking in all the Commandments and Ordinances of the Lord blameleſs,</hi> ver. 6. of this Chapter. And ſo an Angel of the Lord gave this character of his Son <hi>John</hi> the Baptiſt, that <hi>he ſhould be great in the ſight of the Lord, and be filled with the Holy Ghoſt from his Mothers womb, Ver.</hi> 15. So it is written of the Holy Martyr <hi>Stephen,</hi> that <hi>he was full of Faith, and of the Holy Ghoſt, Acts</hi> 6.5. which I think is a phraſe of as much impor<g ref="char:EOLhyphen"/>tance as to be <hi>full of grace;</hi> and might juſtifie the ſpeaking as high things of theſe Saints, as in reaſon can be ſaid of the B. Virgin, to whom the Angel ſaid in common terms of Salutati<g ref="char:EOLhyphen"/>on among the <hi>Jews, Hail, thou that art highly favoured, or full of grace, the Lord is with thee, Bleſſed art thou amongſt wo<g ref="char:EOLhyphen"/>men.</hi>
+            </p>
+            <p>Having now ſhewed that there is nothing ſo peculiar in the Angels Salutation, but that he might have ſaid the like to any other righteous perſon, I proceed to ſhew,</p>
+            <p n="2">
+               <pb n="6" facs="tcp:49583:7"/>2. That the B. Virgin whom he Saluted in the foregoing words, was a very holy perſon; as may be ſhewn Firſt in ge<g ref="char:EOLhyphen"/>neral; and Secondly in particular, from the Hiſtory of the <hi>Annunciation,</hi> as it is ſet forth in this Chapter.</p>
+            <p n="1">1. Firſt then, it may be ſhewed in general, that ſhe was a very holy perſon from the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, whether it be rendred, <hi>Thou that art highly favoured,</hi> or <hi>Thou that art full of grace.</hi> It is not to be imagined that an Angel ſhould be ſent from God, to give ſuch a Title to any man or woman, but who was a Saint of the firſt rank. But it is much more evident that ſhe was ſuch an one from the matter of his Meſſage, or Annunciation, which was to tell her, that ſhe ſhould conceive and bring forth <hi>Jeſus</hi> the Saviour of the World; and that the Holy Ghoſt to that end ſhould come upon her, and the pow<g ref="char:EOLhyphen"/>er of the Higheſt overſhadow her; and that the Holy Child which ſhould be born of her, ſhould be the Son of God. Certainly the Holy Ghoſt would come upon none but a pure Saint; he that affects the Symbols of Innocence and Purity, in all his appearances, and cannot enter into a malicious Soul, nor dwell in the Body that is ſubject unto ſin, would not have come in that manner and for that mighty purpoſe, upon any Daughter of <hi>Adam,</hi> but who had cleanſed her ſelf from all filthineſs of Fleſh and Spirit, and perfected holineſs in the fear of God, Nay, God the Father, who was to prepare a body for his Eternal Son, as it is written, <hi>a Body haſt thou prepared me,</hi> would not form it of the ſubſtance of a ſinful Woman, but his own eſſential Holineſs, as well as the myſte<g ref="char:EOLhyphen"/>rious decency of the Diſpenſation would prompt him to form it of the ſubſtance of one, that like the Kings Daughter in the <hi>Pſalm,</hi> was all glorious within, and a pure and ſpotleſs Vir<g ref="char:EOLhyphen"/>gin, both in Body and Mind. We may be alſo aſſured from the holineſs of God the Son, the Eternal Word of the Fa<g ref="char:EOLhyphen"/>ther, that he would not take upon him the Seed of <hi>Abraham,</hi> but of one of the genuine Daughters of <hi>Abraham;</hi> nor deign to be conceived in the womb of any Woman, but of ſuch an one, who was a veſſel of Honour, in whom the Spirit of God did dwell, and whoſe very Body was the Temple of the Holy Ghoſt.</p>
+            <p>She that was the Mother of God could not but be a very good Woman; She that conceived, and bare, and brought forth the Holy Child <hi>Jeſus,</hi> the Virgin Mother of <hi>Immanuel,</hi> of whom the Prophet wrote as he was inſpired, ſurely muſt
+<pb n="7" facs="tcp:49583:7"/> have been pure as he was pure, and holy as he was holy.</p>
+            <p>For to uſe the Apoſtles phraſe in another ſence, the fulneſs of the Godhead could not dwell bodily in a wicked woman; nor could ſhe be deceived and led away by the Serpent, whoſe Seed was to bruiſe the Serpent's head.</p>
+            <p>Nay to be choſen for the Mother of God, was the greateſt honour and favour that ever God conferred upon any humane creature. None of the ſpecial honours and favours that he did to any of the Saints before or ſince, are equivalent to the ho<g ref="char:EOLhyphen"/>nour of being the <hi>Mother of God.</hi> And therefore we may be ſure that God, who ſaid, them that honour me I will honour, would not have done ſo great an honour to any daughter of <hi>Abraham,</hi> but to one who beſt deſerved it, to one of the holi<g ref="char:EOLhyphen"/>eſt among the daughters of <hi>Iſrael,</hi> to the moſt heavenly minded Virgin of the Tribe of <hi>Judah,</hi> and the Royal houſe of <hi>David;</hi> who had no ſuperiour for holineſs upon earth.</p>
+            <p>If we had no particular account of her graces, we might rationally conclude all this of her from the hiſtory of our Lord's Incarnation; for nothing leſs than Superlative holi<g ref="char:EOLhyphen"/>neſs could receive ſuch a Teſtimony of Divine honour from the Holy Trinity. She was as it were the Spouſe of God, Co-Parent with him of the wonderful <hi>Immanuel,</hi> who was God and man, God of the ſubſtance of the Father, begotten be<g ref="char:EOLhyphen"/>fore the worlds, and Man of the ſubſtance of his Holy Mo<g ref="char:EOLhyphen"/>ther born in the world; perfect God and perfect Man, and yet not Two, but one Chriſt.</p>
+            <p n="2">2. But then in the Second place, we have a particular ac<g ref="char:EOLhyphen"/>count of many of thoſe eminent graces which adorned her, in the Annunciation of the Angel, as it is related by S. <hi>Luke.</hi> As firſt of her Chaſtity, ſhe was <hi>a Virgin, ver.</hi> 27. one that <hi>knew not a man, ver.</hi> 34.</p>
+            <p>Such a pure Virgin as was foretold by the Prophet, who ſaid <hi>a Virgin ſhall conceive a ſon, Iſa.</hi> 7.14. a Virgin in mind as well as body, ſuch a Virgin as never looked upon a man to luſt after him, an entire Virgin, who was all purity within as well as without, who never cheriſhed unclean thoughts, nor let them grow into unchaſte deſires, but ſtifled the beginnings of Luſt in its firſt motions, keeping her Body as the Sanctuary or holy place, and her Soul as the holieſt of holies, and her<g ref="char:EOLhyphen"/>ſelf fit both in Body and Soul, to be the habitation of the Holy Ghoſt, and a Tabernacle for the Son of God. Secondly, we have an account of her great Modeſty, and Humility, which
+<pb n="8" facs="tcp:49583:8"/> put her into great diſorder at the Salutation of the Angel, <hi>when ſhe ſaw him, ſhe was troubled at his ſaying,</hi> and wondred what the meaning of his Salutation ſhould be. She had no<g ref="char:EOLhyphen"/>thing of the Phariſee in her, as doubtleſs many other Virgins had, who would upon ſuch an Addreſs have preſently con<g ref="char:EOLhyphen"/>cluded in favour of their holineſs, that it was ſo great and eminent above the holineſs of other Virgins, that they de<g ref="char:EOLhyphen"/>ſerved that peculiar honour of God. But ſhe on the contrary was ſo very humble, that ſhe was all bluſh without, and con<g ref="char:EOLhyphen"/>fuſion within, at the appearance and complement of the An<g ref="char:EOLhyphen"/>gel. She wondred what ſhould move God to ſend one of the Seven Spirits that attend upon his Throne to viſit her, ſhe wondred what ſhould incline him to honour her ſo much, and why the Angel ſhould ſpeak unto her as unto an holy perſon, and the favourite of Heaven. She had a greater ſenſe of her humane imperfections and infirmities, than of her vertues; and in ſo mean and humble an opinion of herſelf could not imagine, why ſhe ſhould be bleſſed and praiſed above thoſe of her own Sex.</p>
+            <p>So alſo in her <hi>Magnificat,</hi> which ſhe delivered upon the Salutation of her Couſin <hi>Elizabeth,</hi> ſhe admires and adores the infinite condeſcenſion of God to her low Eſtate. And truly the ſignal honour which God did her, in chuſing her for the Mother of his Son, is an argument according to the Scriptures, that ſhe was lowly in Mind, as well as low in Fortune. For <hi>God reſiſteth the proud, but he giveth grace,</hi> (which is an Hebrew phraſe for ſhewing favour) unto <hi>the lowly,</hi> ſaith <hi>Solomon, Prov.</hi> 3.34. And ſaith the Prophet <hi>Iſaiah,</hi> 57.15. <hi>Thus ſaith the high and lofty one, that inhabiteth eternity, whoſe name is Holy; I dwell in the high and holy place, with him alſo that is of a contrite and humble ſpirit, to revive the ſpirit of the humble, and to revive the hearts of the contrite ones.</hi> And this being the uſual method of God's pro<g ref="char:EOLhyphen"/>ceeding with the Sons of Men, we may conclude that the Vir<g ref="char:EOLhyphen"/>gin <hi>Mary</hi> was a very meek and humble Maid, becauſe God ex<g ref="char:EOLhyphen"/>alted her above her fellows.</p>
+            <p>The Third eminent Grace, which we find in the Bleſſed Virgin, was her Faith, which was every way as great as that of the Father of the Faithful, who <hi>being not weak in Faith,</hi> ſaith the Apoſtle, <hi>Rom,</hi> 4.17, &amp;c. <hi>conſidered not his own body now dead, when he was about an hundred years old, neither yet the deadneſs of Sarahs womb,</hi> but <hi>againſt hope, believed in hope, that he might become the father of many nations, not ſtaggering at the promiſe of
+<pb n="9" facs="tcp:49583:8"/> God, who can quicken the dead, and call thoſe things which be not as though they were.</hi> In like manner the Bleſſed Virgin, after the Angel had told her, that <hi>the power of the Higheſt ſhould come upon her,</hi> ſtaggered not at the Promiſe of God through un<g ref="char:EOLhyphen"/>belief, but was ſtrong in Faith, being fully perſwaded, that what he had promiſed, he was able to perform. She knew that he who formed <hi>Adam</hi> of the ground, and <hi>Eve</hi> of one of the Ribs of <hi>Adam;</hi> was alſo able to form the body of his Son of her Subſtance; and therefore though ſhe knew not a man, ſhe ſaid unto the Angel, <hi>Behold, the handmaid of the Lord, be it un<g ref="char:EOLhyphen"/>to me according to thy word.</hi> She knew it was moſt reaſonable to rely on the word of Omnipotence, and eſſential truth, and in this She is commended above <hi>Zacharias,</hi> who did not be<g ref="char:EOLhyphen"/>lieve the meſſage of the Angel, when he told him that his wife <hi>Elizabeth</hi> ſhould bear him a Son. He objected that he was an old man, and his wife well ſtricken in years, forgetting that <hi>Sarah</hi> her ſelf received ſtrength to conceive <hi>Iſaac,</hi> when ſhe was paſt age; and therefore the Lord ſtruck him with dumb<g ref="char:EOLhyphen"/>neſs, becauſe he believed not his words.</p>
+            <p>But though we read of no other Graces in her, yet we may be ſure ſhe had all the reſt, that could render her righteous and acceptable in the ſight of God. There muſt needs have been a noble Structure erected, upon ſuch a foundation of Hu<g ref="char:EOLhyphen"/>mility, Purity, and Faith; when theſe led up the dance, we may be ſure the whole Chore of moral Virtues followed after. And therefore in the Third place,</p>
+            <p n="3">3. It is our duty, who have the benefit of her example, to honour and celebrate her Name, and commemorate her Vir<g ref="char:EOLhyphen"/>tues, and ſet forth her praiſes, in whom there was a concur<g ref="char:EOLhyphen"/>rence of ſo many divine Virtues, ſuch a ſtrong Faith, ſuch abaſing Humility, ſuch pure Chaſtity, and all other Graces in as much perfection, as was conſiſtent with humane frailty.</p>
+            <p>So Divine, ſo Righteous a perſon ought to be had in everlaſt<g ref="char:EOLhyphen"/>ing remembrance, and bleſſed among Women from genera<g ref="char:EOLhyphen"/>tion to generation. We ought not to mention her name with<g ref="char:EOLhyphen"/>out honour, her Name, which ought to be like precious oint<g ref="char:EOLhyphen"/>ment, whereſoever the Goſpel is preached, and written in the biggeſt, and moſt conſpicuous character in the Diptychs of the Church.</p>
+            <p>If the Names of other Saints are diſtinguiſhed with Minia<g ref="char:EOLhyphen"/>ture, Her's ought to ſhine with Gold. Eſpecially if we conſider that She, of all the Virgin-daughters of <hi>Iſrael,</hi> had the honour to
+<pb n="10" facs="tcp:49583:9"/> be choſen by the Holy Trinity for the Mother of God. What ſhall be done to the Woman, whom the King of Kings delight<g ref="char:EOLhyphen"/>eth to honour. Certainly if we ſhould hold our peace, and re<g ref="char:EOLhyphen"/>fuſe to praiſe her among Women, the ſtones of the Church would cry out, <hi>the ſtone ſhall cry out of the wall, and the beam out of the timber ſhall anſwer it.</hi> If what the woman did, who poured forth a box of precious ointment upon the head of our Saviour, was to be ſpoken of for a memorial of her, whereſoever the Goſpel ſhould be preach'd throughout the whole world; ſurely that moſt B. Virgin, who had the honour to bring forth, and breed up the Son of God, ought to have a Feſtival and be mentioned with all due reverence, and eſteem, in all the Churches of the Saints. Whereſoever the Goſpel is preach'd, that which ſhe hath done and ſuffered for our Lord ought to be ſpoken of, for a memorial of her, from whom he took that very body, which was crucified, and that precious blood, which was ſhed for the remiſſion of our ſins.</p>
+            <p n="4">4. But then in the Fourth place, though we ought to honour her, and have honourable thoughts, and make honourable mention of her, yet we ought to take care, that we do not ho<g ref="char:EOLhyphen"/>nour her too much, in thinking and ſpeaking more highly of her, than we ought to think and ſpeak of an humane Creature. Indeed there is a particular reſpect due unto her, upon the ac<g ref="char:EOLhyphen"/>count of her eminent Graces, and as ſhe is the Mother of God. And ſo we find her Couſin <hi>Elizabeth</hi> treated her, with a parti<g ref="char:EOLhyphen"/>cular reſpect under that Character, <hi>whence is this to me, that the Mother of my Lord ſhould come unto me?</hi> But then we muſt not let our reſpect for her commence into Worſhip, nor Romance her into a Deity, becauſe it was her Lot to be that Happy Vir<g ref="char:EOLhyphen"/>gin of whom Chriſt was Born. We muſt not treat her upon the account of her ſingular Relation to <hi>Immanuel,</hi> as if ſhe were an Infinite Majeſty, or as if her graces were indeed Divine At<g ref="char:EOLhyphen"/>tributes,<note place="margin">Epiſt Dedicat. to the Contem<g ref="char:EOLhyphen"/>plations of the V. <hi>Mary.</hi>
+               </note> and <hi>her prerogatives of Grace and Glory,</hi> as a late book aſſerts, <hi>one and the ſame with thoſe of her Son.</hi> We ought not to pay ſuch Homage and Veneration to her under the Cha<g ref="char:EOLhyphen"/>racter of the Queen, as is only due to the King of Heaven, but we muſt carefully keep our reſpects to her Perſon and Me<g ref="char:EOLhyphen"/>mory within due bounds and limits, leſt tranſgreſſing here<g ref="char:EOLhyphen"/>in, we ſhould fall into thoſe unwarrantable exceſſes and abuſes, which a great part of Chriſtendom is too juſtly chargeable with.</p>
+            <pb n="11" facs="tcp:49583:9"/>
+            <p>And that I may not be accuſed of charging ſo great and conſiderable a number of our Fellow-Chriſtians wrongfully, or of ſaying what I cannot prove, I ſhall ſpend the remainder of my pains in ſhewing, how extravagant the Votaries of the B. Virgin have been, and ſtill are, in her Commendations, and Praiſes, and in the Honour which they pay, and the Devotions which they offer up unto her: And Secondly, in making a ſhort Application of the whole diſcourſe.</p>
+            <p n="1">1. I ſhall ſhew how extravagant the Votaries of the Bleſſed Virgin are, both in word and deed, in the Honours which they pay unto her, out of the Offices of the Latin Church, and the Antient and Modern approved Authors of her Communion, who ſpeak ſuch extravagant things of her, as in reality are a Diſhonour to her, and a diminution of our Lord and Saviour Jeſus Chriſt.</p>
+            <p>To begin with the Offices of the Latin Church; in the form of Abſolving a Penitent, in the Ritual the Prieſt con<g ref="char:EOLhyphen"/>cludes with theſe words,<note place="margin">Paſſio Domini noſtri Jeſu Chriſti, meri<g ref="char:EOLhyphen"/>ta B. <hi>Mariae</hi> Virginis, &amp; omnium Sancto<g ref="char:EOLhyphen"/>rum, quicquid boni feceris, &amp; mali ſuſti<g ref="char:EOLhyphen"/>nueris, ſint tibi in remiſſion<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m peccatorum, augmentum gratiae, &amp; praemium vitae aeter<g ref="char:EOLhyphen"/>nae, <hi>Amen.</hi>
+               </note> 
+               <hi>The Paſſion of our Lord Jeſus Chriſt, the merits of the B. Virgin</hi> Mary, <hi>and all Saints, all the good thou haſt done, and the evil thou haſt ſuffered, be unto thee for remiſſion of ſins, increaſe of grace, and the reward of Eternal Life, Amen.</hi> So in many of her Offices there are theſe follow<g ref="char:EOLhyphen"/>ing Prayers. <note n="*" place="margin">
+                  <hi>Beata mater, glorioſa Regina mundi, intercede pro nobis ad Dominum.</hi>
+                  <bibl>Offic. B. M. in Sabbato. &amp; Offic. parv. B. Mariae.</bibl>
+               </note> 
+               <hi>O bleſſed mother, and glorious Queen of the world, intercede for us unto the Lord,</hi> and <note n="‖" place="margin">Sub tuum praeſidium confugimus, ſancta Dei Genetrix, noſtras deprecationes ne deſpicias in neceſſitatibus, ſed à peri<g ref="char:EOLhyphen"/>culis cunctis libera nos ſemper, Virgo glo<g ref="char:EOLhyphen"/>rioſa &amp; benedicta.
+<bibl>
+                     <hi>Offic. parv. B. M.</hi>
+                  </bibl>
+               </note> 
+               <hi>we fly unto thy protection, and ſafeguard, O holy mother of God, deſpiſe not our Prayers in our neceſſities, but always deliver us from all dangers, O glorious and Bleſſed Virgin.</hi> I think this is ſomething more than to deſire her to pray for us, as we do the faithful upon earth, through the merits of Jeſus Chriſt. And ſo is the Hymn, <hi>Ave maris ſtella,</hi> which I ſhall render in the fol<g ref="char:EOLhyphen"/>lowing words, <hi>Hail Star of the Sea,</hi>
+               <note place="margin">
+                  <lg>
+                     <l>Ave maris ſtella,</l>
+                     <l>Dei Mater alma,</l>
+                     <l>Atque ſemper Virgo,</l>
+                     <l>Foelix coeli porta.</l>
+                  </lg>
+                  <lg>
+                     <l>Sumens illud ave</l>
+                     <l>Gabrielis ore</l>
+                     <l>Funda nos in pace,</l>
+                     <l>Mutans Hevae nomen.</l>
+                  </lg>
+                  <lg>
+                     <l>Solve vincla reis,</l>
+                     <l>Profer lumen caecis,</l>
+                     <l>Mala noſtra pelle,</l>
+                     <l>Bona cuncta poſce.</l>
+                  </lg>
+                  <lg>
+                     <l>Monſtra te eſſe Matrem,</l>
+                     <l>Sumat per te preces</l>
+                     <l>Qui pro nobis natus</l>
+                     <l>Tulit eſſe tuus.</l>
+                  </lg>
+                  <lg>
+                     <l>Virgo ſingularis,</l>
+                     <l>Inter omnes mitis,</l>
+                     <l>Nos culpis ſolutos</l>
+                     <l>Mites fac &amp; caſtos,</l>
+                  </lg>
+                  <lg>
+                     <l>Vitam praeſta puram</l>
+                     <l>Iter para tutum,</l>
+                     <l>
+                        <g ref="char:V">Ʋ</g>t videntes Jeſum</l>
+                     <l>Semper collaetemur.</l>
+                  </lg>
+                  <lg>
+                     <l>Sit laus Deo Patri,</l>
+                     <l>Summo Chriſto decus,</l>
+                     <l>Spiritui Sancto,</l>
+                     <l>Tribus honor unus. Amen.</l>
+                  </lg>
+                  <bibl>
+                     <hi>Offic. B. M. in Sabbato &amp; alibi.</hi>
+                  </bibl>
+               </note> 
+               <hi>and nurſing mother of God, perpetual Virgin, and bleſſed gate of Heaven, Thou that receiveſt the Salutation, which was ſpoken by the mouth of</hi> Ga<g ref="char:EOLhyphen"/>briel, <hi>and changeſt the name of</hi> Eve,
+<pb n="12" facs="tcp:49583:10"/> 
+               <hi>looſe the bonds of guilty ſinners, enlighten the eyes of the blind, drive away all evils from us, and ask all good things for us. Shew that thou art the Mother of Chriſt, and let him who was born of thee for us, and vouchſafed to be thy Son, receive our prayers, through Thee, O moſt ex<g ref="char:EOLhyphen"/>cellent, and humble Virgin; make us humble, and chaſt, and free from the bonds of our ſins; give us purity of life, and grant us a ſafe paſſage into the next World, that we attaining the Beatiſick Viſion of</hi> Jeſus, <hi>may rejoyce with ever<g ref="char:EOLhyphen"/>laſting joy. Praiſe be given to God the Father, glory to Chriſt the Sovereign Lord, and to the Holy Ghoſt, to all three be one honour. Amen.</hi>
+            </p>
+            <p>You ſee they pray unto her here, as unto an Author and Donor of Spiritual Bleſſings, and remind her of her <hi>power</hi> and influence over her Son. And ſo in another Hymn, they re<g ref="char:EOLhyphen"/>mind him of whom he took his Body,<note place="margin">
+                  <lg>
+                     <l>Memento rerum Conditor</l>
+                     <l>Noſtri quod olim corporis</l>
+                     <l>Sacrata ab alvo Virginis</l>
+                     <l>Naſcendo ſormam ſumpſti,</l>
+                  </lg>
+                  <lg>
+                     <l>Maria Mater gratiae,</l>
+                     <l>Dulcis parens clementiae,</l>
+                     <l>Tu nos ab hoſte protege</l>
+                     <l>Et mortis horâ ſuſcipe.</l>
+                  </lg>
+                  <lg>
+                     <l>Jeſu tibi ſit gloria,</l>
+                     <l>Qui natus es de Virgine,</l>
+                     <l>Cum Patre &amp; almo Spiritu,</l>
+                     <l>In ſempiterna ſecula. Amen.</l>
+                  </lg>
+                  <bibl>
+                     <hi>Off. parv. B. M.</hi>
+                  </bibl>
+               </note> and then pray unto her, in the follow<g ref="char:EOLhyphen"/>ing manner, <hi>Remember O Creator of all things, that thou formerly tookeſt the ſhape of our Body, by being born of the holy womb of the Virgin. O Mary Mo<g ref="char:EOLhyphen"/>ther of Grace, and ſweet parent of mercy, protect us from the Enemy, and receive us in the hour of Death. Glory be to thee, O Jeſus, who waſt born of the Virgin, with the Father, and the Ho<g ref="char:EOLhyphen"/>ly Spirit. Amen.</hi>
+            </p>
+            <p>So in another Hymn they invoke her thus; <note n="*" place="margin">
+                  <lg>
+                     <l>O Glorioſa Virginum,</l>
+                     <l>Sublimis inter ſydera,</l>
+                     <l>Qui te creavit, parvulum</l>
+                     <l>Lactente nutris ubere.</l>
+                  </lg>
+                  <lg>
+                     <l>Quod Heva triſtis abſtulit</l>
+                     <l>Tu reddis almo germine;</l>
+                     <l>Intrent ut aſtra flebiles</l>
+                     <l>Coeli recludis cardines.</l>
+                  </lg>
+                  <lg>
+                     <l>Tu Regis alti janua,</l>
+                     <l>Et aula lucis fulgida,</l>
+                     <l>Vitam datam per Vioginem,</l>
+                     <l>Gentes redempta plaudito.</l>
+                  </lg>
+                  <lg>
+                     <l>Jeſu ſit tibi gloria, <hi>&amp;c.</hi>
+                        <bibl>
+                           <hi>Ibid.</hi>
+                        </bibl>
+                     </l>
+                  </lg>
+               </note> 
+               <hi>O Glorious Virgin, who art aloft among the Stars, thou nurſedſt thy Crea<g ref="char:EOLhyphen"/>tor with the milk of thy Dugs, thou reſto<g ref="char:EOLhyphen"/>reſt unto us by the holy Branch, what</hi> Eve <hi>took from us, thou openeſt the Gates of Heaven, that penitents might enter in, thou art the Gate of the great King, the
+<pb n="13" facs="tcp:49583:10"/> bright Palace of light. O redeemed Na<g ref="char:EOLhyphen"/>tions expreſs your joy for the life that is given by the Bleſſed Virgin. Glory be to thee O Jeſus,</hi> &amp;c.</p>
+            <p>One of the Leſſons for the Saturday-Office of the B. Virgin begins thus; <note n="*" place="margin">Amplectamur Mariae veſti<g ref="char:EOLhyphen"/>gia, fratres mei, &amp; devotiſſimâ ſupplicatione beatis illius pedi<g ref="char:EOLhyphen"/>bus provolvamur. Teneamus eam, nec dimittamus donce be<g ref="char:EOLhyphen"/>nedixerit nobis. Potens eſt enim, <hi>&amp;c.</hi>
+                  <bibl>
+                     <hi>Menſe Oct. Serm. Bernardi Abbatis.</hi>
+                  </bibl>
+               </note> 
+               <hi>My Brethren, let us embrace the footſteps of</hi> Mary, <hi>let us throw our ſelves at her feet, with moſt devout ſupplication; let us hold her faſt, and not let her go, till ſhe bleſs us, for ſhe is powerful,</hi> &amp;c.</p>
+            <p>And in another Office there is this Prayer; <note n="*" place="margin">Precibus &amp; meritis B. Mariae ſem<g ref="char:EOLhyphen"/>per Virginis, &amp; omnium ſanctorum par<g ref="char:EOLhyphen"/>ducat nos Dominus ad regnum coelorum. Amen.
+<bibl>
+                     <hi>Offic. parv.</hi>
+                  </bibl>
+               </note> 
+               <hi>The Lord bring us all unto the Kingdom of Heaven, by the merits and prayers of the perpetual Virgin</hi> Ma<g ref="char:EOLhyphen"/>ry, <hi>and all the Saints. Amen.</hi>
+            </p>
+            <p>In the Saturday-Office there is alſo this ſolemn prayer of Interceſſion to her; <note n="‖" place="margin">O Beata Dei Genetrix Maria, vir<g ref="char:EOLhyphen"/>go perpetua, templum Domini, ſacrarium Spiritus Sancti; ſola ſine exemplo placu<g ref="char:EOLhyphen"/>iſti Domino noſtro Jeſu Chriſto: Ora pro populo, i<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>erveni pro Clero, intercede pro devoto foemineo ſexu.</note> 
+               <hi>O Mary, Bleſſed Mother of God, perpetual Virgin, Temple of the Lord, ſanctuary of the Holy Ghoſt; Thou only without example, waſt pleaſing to our Lord</hi> Jeſus <hi>Chriſt: Pray for the people, mediate for the Clergy, and interceed for the devout female Sex.</hi> And then fol<g ref="char:EOLhyphen"/>lows this prayer unto God; <note n="*" place="margin">Concedo nos famulos tuos, quaeſumus Domine Deus, perpetua mentis &amp; corpo<g ref="char:EOLhyphen"/>ris ſanitate gaudere, &amp; glorioſâ B. Ma<g ref="char:EOLhyphen"/>riae, ſemper Virginis, interceſſione, à prae<g ref="char:EOLhyphen"/>ſenti liberari triſtitiâ, &amp; aterna perfrui latitiâ, Per Dominum.</note> 
+               <hi>We be<g ref="char:EOLhyphen"/>ſeech thee O Lord God grant, that we thy ſervants may enjoy perpetual ſound<g ref="char:EOLhyphen"/>neſs of body, and mind, and by the glori<g ref="char:EOLhyphen"/>ous interceſſion of the bleſſed and perpetu<g ref="char:EOLhyphen"/>al Virgin, may be delivered from our preſent ſorrow, and enjoy everlaſting comfort. Through our Lord.</hi>
+            </p>
+            <p>In the Office for the Feſtival of her Conception, there is this Antiphone; <note n="‖" place="margin">Cum jucunditate conceptionem B. Mariae celebremus: ut ipſa pro nobis intercedat ad Dominum J<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſum Chriſtum.
+<bibl>
+                     <hi>Breviar. Rom.</hi>
+                  </bibl>
+               </note> 
+               <hi>Let us celebrate the Conception of the B. Virgin with joy, that ſhe may inter<g ref="char:EOLhyphen"/>ceed for us with</hi> Jeſus <hi>Chriſt.</hi> And this addreſs in Verſicle and Anſwer; <note n="*" place="margin">Foelix namque es ſacra V. Maria, &amp; omni lande digniſſima: Quia ex te ortus eſt ſol juſtitiae Chriſtus Deus noſter. Ora pro Populo, interveni pro Clero, in<g ref="char:EOLhyphen"/>tercede pro devoto foemineo ſexus, ſentiant omnes tuum juvamen quicunque celebrant tuam ſanctam conceptionem,
+<bibl>
+                     <hi>ibid.</hi>
+                  </bibl>
+               </note> 
+               <hi>For thou art bleſſed O holy Virgin, and wor<g ref="char:EOLhyphen"/>thy of all praiſe, becauſe Chriſt our God the Son of righteouſneſs roſe out of thee. O pray for the People, mediate for the
+<pb n="14" facs="tcp:49583:11"/> Clergy, intercede for the devout female ſex, and let all thoſe who celebrate thy holy conception feel thy help.</hi>
+            </p>
+            <p>In the Office of S. <hi>Mary ad Nives</hi> there is this verſicle and anſwer, Verſ. <note n="*" place="margin">Dignare me lauda <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>teſacrata Virgo. Da mihi virtutem contra hoſtes tuos. <hi>Feſt. S.</hi> Mar ad Nives.</note> 
+               <hi>make me worthy to praiſe thee, O holy Virgin,</hi> R. <hi>And give me power againſt thy enemies.</hi> And then follows this Antiphone; <note n="‖" place="margin">Sancta <hi>Maria</hi> ſuccurre miſeris, juva puſillanimes, refove flebiles, ora pro po<g ref="char:EOLhyphen"/>pulo— ſentiant omnes tuum juvam<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n qui<g ref="char:EOLhyphen"/>cunque celebrant tuam ſanctam feſtivita<g ref="char:EOLhyphen"/>tem.
+<bibl>
+                     <hi>Ibid,</hi>
+                  </bibl>
+               </note> 
+               <hi>O holy</hi> Mary, <hi>ſuccour them that are miſera<g ref="char:EOLhyphen"/>ble, help them that are weak hearted, com<g ref="char:EOLhyphen"/>fort thoſe that are ſorrowful, pray for the people,— and let thoſe who celebrate thy holy Feſtival become ſenſible of thy help.</hi>
+            </p>
+            <p>In the ſecond day of the Octave of her Nativity, there is this Prayer, or Leſſon. <note n="*" place="margin">O B <hi>Maria</hi> quis tibi digne valeat jura gratiarum, ac laudum praeconia re<g ref="char:EOLhyphen"/>pendere, quae ſingulari tuo aſſenſu mundo ſuccurris perdito? Quas tibi laudes fra<g ref="char:EOLhyphen"/>gilitas humani generis perſolvat, quae ſolo tuo commercio recuperandi aditum inve<g ref="char:EOLhyphen"/>nit? Accipe itaque quaſcunque exiles, quaſcunque meritis tuis, impares gratia<g ref="char:EOLhyphen"/>rum ictiones: Et cum ſuſceperis vota, culpas noſtras orando excuſa. Admitte noſtras preces intra ſacrarium exauditionis, &amp; re<g ref="char:EOLhyphen"/>porta nobis antidotum reconciliationis,
+<bibl>
+                     <hi>ibid.</hi>
+                  </bibl>
+               </note> 
+               <hi>O B.</hi> Mary, <hi>who can ſuffici<g ref="char:EOLhyphen"/>ently give thee praiſe, and thanks, who by thy ſingular aſſent didſt ſuccour the world when it was undone? what praiſes ſufficient can frail mankind pay unto thee who haſt found a way of recovery, only by thy commerce with God? We therefore pray thee, receive our Thanksgivings how mean ſoever they be, and unequal to thy merits, and when thou ſhalt receive our Devotions, excuſe our faults by praying. O admit our prayers within the Sanctua<g ref="char:EOLhyphen"/>ry of thy audience, and bring back, unto us the antidote of reconciliation.</hi>
+            </p>
+            <p>What is meant in this Prayer by her ſuccouring the world when it was undone, by her aſſent, I cannot tell, unleſs her acceptance of God's offer to be the Mother of Jeſus, be to be underſtood by it, as a late <note n="*" place="margin">The Contem<g ref="char:EOLhyphen"/>plations, p. <hi>60, 64, 66.</hi>
+               </note> Book makes me think it is, which ſaith that <hi>God referred the execution of his Sons Incar<g ref="char:EOLhyphen"/>nation to her acceptance, and thereby admitted her to a con<g ref="char:EOLhyphen"/>ſultive and deciſive ſuffrage in his Counſels.</hi>
+            </p>
+            <p>But to proceed; the next leſſon is a Prayer of the ſame ſtrain, in the following words; <note n="*" place="margin">Sit per te excuſibile quod per te ingerimus, fiat impetrabile, quod fidâ mente poſcimus. Accipe quod offerimus, redona quod rogamus, excuſa quod ti<g ref="char:EOLhyphen"/>memus: quia tu es ſpes unica pecca<g ref="char:EOLhyphen"/>torum. Per te ſperamus veniam delicto<g ref="char:EOLhyphen"/>rum, &amp; in te beatiſſima noſtrorum eſt ex<g ref="char:EOLhyphen"/>poctatio praemiorum. Sancta <hi>Maria</hi> ſuc<g ref="char:EOLhyphen"/>curre miſeris, <hi>&amp;c.</hi>
+                  <bibl>
+                     <hi>Brev. Rom.</hi>
+                  </bibl>
+               </note> 
+               <hi>Let every thing be excuſed which we bring</hi> unto God <hi>by thee, and let us obtain what<g ref="char:EOLhyphen"/>ſoever we ask with a faithful mind. Ac<g ref="char:EOLhyphen"/>cept that we offer, give that we ask, and
+<pb n="15" facs="tcp:49583:11"/> pardon that we fear: becauſe thou art the only hope of ſinners. We hope for the par<g ref="char:EOLhyphen"/>don of our offences by thee, and in thee is the moſt bleſſed expectation of our reward, O holy</hi> Mary, <hi>ſuccour thoſe that are miſe<g ref="char:EOLhyphen"/>rable, uphold thoſe that are faint-hearted, comfort thoſe that weep, pray for the people,</hi> and ſo forth as above recited. And if this be not to derogate from the merits and mediation of our Lord, I know not what is.</p>
+            <p>In the Advent Sundays, this is a common Collect; <note n="‖" place="margin">Deus, qui de B. <hi>Mariae</hi> Virginis utero, Verbum tuum, Angelo nunciante, carnom ſuſcipere voluiſti: praeſta ſupplicibus tuis, ut qui verè eam genetricem Dei credi<g ref="char:EOLhyphen"/>mus, ejus apud to interceſſionibus adjuve<g ref="char:EOLhyphen"/>mur,
+<bibl>
+                     <hi>Miſſal. Rom.</hi>
+                  </bibl>
+               </note> 
+               <hi>O God, who by the Annunciation of an Angel, wouldſt have thy eternal Son aſſume fleſh, of the ſub<g ref="char:EOLhyphen"/>ſtance of the bleſſed Virgin</hi> Mary, <hi>grant to us thy ſupplicants, that we who truly be<g ref="char:EOLhyphen"/>lieve her to be the Mother of God, may be helped by her interceſſion with thee.</hi>
+            </p>
+            <p>In the ſecond Sunday after the Epi<g ref="char:EOLhyphen"/>phany, there is this Prayer; <note n="*" place="margin">Haec nos Communio, Domine, purget a crimine; &amp; intercedente B Virgine Dei genetrice <hi>Mariâ</hi> coeleſtis remedii fa<g ref="char:EOLhyphen"/>ciat ejus conſories.
+<bibl>
+                     <hi>ibid.</hi>
+                  </bibl>
+               </note> 
+               <hi>O Lord let this Communion cleanſe us from ſin, and make us partakers of the heavenly re<g ref="char:EOLhyphen"/>medy, by the interceſſion of the B. Virgin</hi> Mary <hi>the Mother of God.</hi>
+            </p>
+            <p>In the Maſs of her Aſſumption, there is this Prayer; <note n="*" place="margin">Subveniat, Domine, plebi tuae Dei genetricis oratio: quam etſi pro condi<g ref="char:EOLhyphen"/>tione carnis migraſſe cognoſcimus, in coe<g ref="char:EOLhyphen"/>leſti gloria apud te pro nobis intercedere ſentiamus, per eundem, <hi>&amp;c.</hi>
+                  <bibl>
+                     <hi>ibid.</hi>
+                  </bibl>
+               </note> 
+               <hi>O Lord let the Prayer of the Mother of God help thy people, and although we know ſhe died, and was car<g ref="char:EOLhyphen"/>ried hence, yet let us perceive that ſhe in<g ref="char:EOLhyphen"/>tercedes for us in heaven, by the ſame our Lord Jeſus Chriſt.</hi>
+            </p>
+            <p>In the proper Maſs of her Seven Sorrows, ſhe is called, <note n="*" place="margin">Coeli Regina, &amp; mater mun<g ref="char:EOLhyphen"/>di—
+<bibl>
+                     <hi>ibid.</hi>
+                  </bibl>
+               </note> 
+               <hi>The Queen of heaven, and Lady of the world,</hi> and what that ſignifies you ſhall have from a late Author, who ſaith that <note n="‖" place="margin">Epiſt. Dedi<g ref="char:EOLhyphen"/>cat<g ref="char:punc">▪</g> to the Con<g ref="char:EOLhyphen"/>templations.</note> 
+               <hi>Kings are the moſt noble Images of God's Majeſty in the viſi<g ref="char:EOLhyphen"/>ble world, and Chriſtian Queens the Repreſentatives of the mo<g ref="char:EOLhyphen"/>ther of Jeſus;</hi> according to which compariſon it follows, that as the Queen is in priviledge, power, authority, great<g ref="char:EOLhyphen"/>neſs and prerogative to the King of an earthly Kingdom, ſo the B. Virgin is to God the King of Heaven, and Soveraign Lord of the world.</p>
+            <pb n="16" facs="tcp:49583:12"/>
+            <p>And therefore it is no wonder, that in the ſolemn Hymn, which begins, <note n="*" place="margin">
+                  <bibl>
+                     <hi>In miſsâ propria de 7. doloribus.</hi>
+                  </bibl>
+                  <lg>
+                     <l>— Eja Mater fons amoris,</l>
+                     <l>Me ſentire vim doloris</l>
+                     <l>Fac ut tecum lugeam.</l>
+                  </lg>
+                  <lg>
+                     <l>Fac ut ardeat cor meum</l>
+                     <l>In amando Chriſtum Deum</l>
+                     <l>
+                        <g ref="char:V">Ʋ</g>t ſibi complaccam —</l>
+                  </lg>
+                  <lg>
+                     <l>— Fac me v<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>re tecum flere,</l>
+                     <l>Crucifixo condol<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>re,</l>
+                     <l>Don <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ego vixero —</l>
+                  </lg>
+                  <lg>
+                     <l>— Fac me plagis vulnerari</l>
+                     <l>Cruce hac inebriari</l>
+                     <l>Ob amorem Filii.</l>
+                  </lg>
+                  <lg>
+                     <l>Inflammatus &amp; accenſus,</l>
+                     <l>Per te V. ſim defenſus,</l>
+                     <l>In die judicii.</l>
+                  </lg>
+                  <lg>
+                     <l>Fac me crùce cuſtodiri,</l>
+                     <l>Morte Chriſti praemuniri,</l>
+                     <l>Confoveri gratiâ.</l>
+                  </lg>
+                  <lg>
+                     <l>Quando corpus morietur,</l>
+                     <l>Fac ut animae donetur,</l>
+                     <l>Paradiſi gloria. Amen.</l>
+                  </lg>
+               </note> 
+               <hi>Stabat Mater doloroſa,</hi> they as ſolemnly pray unto her <hi>to make them ſenſible of her ſorrows, to make their hearts burn with the love of Chriſt, and to imprint his wounds upon them; to enable them to weep with her, and condole the crucified</hi> Jeſus, <hi>to be wounded with his wounds, and inebriated with the love of him, and to defend them in the day of judg<g ref="char:EOLhyphen"/>ment.</hi> They alſo pray her, <hi>to keep them by the Croſs, to fortifie them by the death of Chriſt, to cheriſh them with her favour, and to grant that when their Souls depart from their Bo<g ref="char:EOLhyphen"/>dies, they may go into the glory of Pa<g ref="char:EOLhyphen"/>radiſe.</hi> And then ſolemnly ſay, <hi>Amen.</hi>
+            </p>
+            <p>In another Maſs they have this pray<g ref="char:EOLhyphen"/>er; <note n="‖" place="margin">Deus, qui per glorioſiſſimam Filii tui Matrem, ad liberandos Chriſti ſideles à poteſtate Paganorum, novâ Eccleſiam tu<g ref="char:EOLhyphen"/>am prole amplificare dignatus es: Praeſta quaeſumus, ut quam pie veneramur tanti operis inſtitutricem, ejus pariter meritis &amp; interceſſione à peccatis omnibus &amp; cap<g ref="char:EOLhyphen"/>tivitate Daemonis liberemur. Per cundem Dominum.
+<bibl>
+                     <hi>Miſſa B. V. M. de Mercede.</hi>
+                  </bibl>
+               </note> 
+               <hi>O Lord, who by the glorious Mo<g ref="char:EOLhyphen"/>ther of thy Son haſt vouchſafed to enlarge thy Church, with a new off-ſpring, to free the faithful in Chriſt from the power of Pagans; grant we beſeech thee, that we who worſhip the Foundreſs of ſo great a work may be delivered, as well by her merits, as her interceſſion, from all our ſins, and the captivity of the Devil, by the ſame our Lord.</hi>
+            </p>
+            <p>In the Maſs of her Name there is this Collect; <note n="*" place="margin">Deus qui glorioſam Matrem tuam Mariam nominari voluiſti: concede quae<g ref="char:EOLhyphen"/>ſumus, ut qui dulce Maria nomen implo<g ref="char:EOLhyphen"/>rant, perpetuum ſentiant tuae benedictionis effectum, Qui vivis &amp; regnas.
+<bibl>
+                     <hi>Miſſa de Nomine B. V. M.</hi>
+                  </bibl>
+               </note> 
+               <hi>O God, who wouldſt have thy glorious Mother named</hi> Mary, <hi>grant we pray thee, that thoſe who implore her ſweet name, may find the perpetual effect of thy benediction, who liveſt and reign<g ref="char:EOLhyphen"/>eſt,</hi> &amp;c.</p>
+            <p>In the ſixth of the Octave of her Nativity, one Leſſon be<g ref="char:EOLhyphen"/>gins thus; <note n="‖" place="margin">De Maria accipitur (liccat mihi di<g ref="char:EOLhyphen"/>cere) quod ſcriptum eſt de Eccleſiâ: Re<g ref="char:EOLhyphen"/>linquet homo Patrem ſuum, &amp; Matrem ſuum, &amp; adhaerebit uxori ſuae: &amp; erunt duo in carne unâ.
+<bibl>
+                     <hi>Lect. 6. in ſecundo Nocturno Brev. Roman.</hi>
+                  </bibl>
+               </note> 
+               <hi>I may ſay that that which is written of the Church may be underſtood of</hi> Mary; <hi>A man ſhall leave his Father
+<pb n="17" facs="tcp:49583:12"/> and Mother, and cleave to his Wife, and they ſhall be two in one fleſh.</hi>
+            </p>
+            <p>And accordingly in the Leſſon for the Feſtival of her Aſ<g ref="char:EOLhyphen"/>ſumption, and the Octaves thereof, they apply all that is ſaid of the Church in the Song of <hi>Solomon</hi> to her, as if ſhe were indeed the Spouſe of Chriſt, and likewiſe thoſe expreſ<g ref="char:EOLhyphen"/>ſions of the King's Bride in the 45th. <hi>Pſalm,</hi> 
+               <note n="*" place="margin">Aſtitit regina à dextris tuis, in veſtitu deau<g ref="char:EOLhyphen"/>rato circunda<g ref="char:EOLhyphen"/>ta varietate.
+<bibl>
+                     <hi>Ibid.</hi>
+                  </bibl>
+               </note> which under the type of <hi>Solomon</hi>'s marriage, prefigured the marriage of Chriſt to his Church.</p>
+            <p>In the Octave of her Nativity, in the fourth Leſſon of the firſt Nocturn, it is ſaid; <note n="‖" place="margin">Laus &amp; gloria ſit tibi Sancta Trinitas, quae omnes nos ad hanc celebritatem convo<g ref="char:EOLhyphen"/>caſti. Sit etiam tibi ſancta Dei Mater laus. Tu enim es pretioſa Margarita, <hi>&amp;c.</hi>
+                  <bibl>
+                     <hi>Ibid.</hi>
+                  </bibl>
+               </note> 
+               <hi>Praiſe and glory be given to thee O Holy Trinity, who haſt called us unto this celebrity. And praiſe be alſo unto thee O holy Mother of God, for thou art the precious pearl of the world.</hi> And then it follows in the fifth Leſſon; <note n="*" place="margin">Per te Trinitas ſanctificatur, per te Crux pretioſa celebratur, &amp; adoratur in toto terrarum orbe. Per te, <hi>&amp;c.</hi>
+                  <bibl>
+                     <hi>Ibid.</hi>
+                  </bibl>
+               </note> 
+               <hi>By thee the holy Trinity is ſanctified, and the precious Croſs celebra<g ref="char:EOLhyphen"/>ted, and adored through the world; by thee Heaven doth exult, the Angels and Archangels rejoyce, Devils are put to flight, and man is called back to Heaven,</hi> &amp;c.</p>
+            <p>I have taken all this, and might have taken more out of the reformed Miſſal, and Breviary, which a late ſmall <note n="‖" place="margin">The Author of Popery ana<g ref="char:EOLhyphen"/>tomized.</note> Writer calls the <hi>Authentick Books of the Church of</hi> Rome. And in ſome of theſe Devotions you ſee, they pray unto her alone, as unto a Deity, to bleſs them, and to beſtow Spiritual and Temporal bleſſings upon them, ſaying in effect unto her, <hi>Have pity upon us, hear our prayers,</hi> &amp;c. which the late <hi>French</hi> Expoſitor of the Catholick Doctrine ſaith, is the proper way of ſpeaking unto God.</p>
+            <p>In others of them they pray unto God the Father, through her Merits or Interceſſion, and ſo make her a collateral Me<g ref="char:EOLhyphen"/>diatrice with Chriſt.</p>
+            <p>In others they pray unto Chriſt for her ſake, and through her Interceſſion, and ſo make her an under-Mediatrice unto him.</p>
+            <p>In others they deſire her to interceed with God for them, which alſo makes her a joynt Mediatrice with Chriſt.</p>
+            <p>In others they deſire her to <note n="‖" place="margin">
+                  <hi>So they pray unto</hi> S. Ambr. Beate Ambroſi deprecare pro nobis filium Dei.</note> interceed with Chriſt for them, which alſo makes her a ſubordinate Mediatrice to him.</p>
+            <pb n="18" facs="tcp:49583:13"/>
+            <p>In others they pray unto God through her Merits or Inter<g ref="char:EOLhyphen"/>ceſſion by Chriſt Jeſus, which ſeems to joyn her with him in the Office of Mediator.</p>
+            <p>In others they joyn ſeveral of theſe Forms together, con<g ref="char:EOLhyphen"/>trary to the Scriptures, which direct us to pray unto none but God, and through no Mediator but Jeſus Chriſt; and which poſitively teach, that as <hi>there is but one God,</hi> ſo there is but <hi>one Mediator betwixt God and man, the man Chriſt Je<g ref="char:EOLhyphen"/>ſus,</hi> and that he <hi>ever liveth to make interceſſion for us.</hi> Indeed they may well pray unto God, and Chriſt through her merits, who pray unto Chriſt through the merits of <hi>S. Joſeph</hi> her reputed husband, as they do on his Feſtival in the following Prayer, <hi>We pray thee, O Lord, that we may be helped by the merits of the Spouſe of thy holy Mother,</hi>
+               <note place="margin">Sanctiſſimae genetricis tuae ſponſi, quaeſu<g ref="char:EOLhyphen"/>mus Domine, meritis adjuvemur: ut quod poſſibilitas noſtra non obtinet, ejus nobis interceſſione donetur: Qui vivis &amp; regnas cum Deo Patre.
+<bibl>
+                     <hi>Brev. Rom.</hi>
+                  </bibl>
+               </note> 
+               <hi>that what our weak<g ref="char:EOLhyphen"/>neſs cannot obtain, may be given unto us by his interceſſion; who liveſt and reign<g ref="char:EOLhyphen"/>eſt with the Father.</hi>
+            </p>
+            <p>So they pray unto God through Chriſt, and S. <hi>Nicolas</hi> together in the following words;<note place="margin">Deus qui Beatum <hi>Nicolaum</hi> innumeris decoraſti miraculis, tribue quaeſumus, ut ejus meritis &amp; precibus, à gehennae incen<g ref="char:EOLhyphen"/>diis liberemur per Dominum.
+<bibl>
+                     <hi>ibid.</hi>
+                  </bibl>
+               </note> 
+               <hi>O God who haſt graced S. Nicolas the Biſhop with many Miracles, grant we beſeech thee, that we may be de<g ref="char:EOLhyphen"/>livered from hell fire by his merits and prayers, through Chriſt our Lord.</hi>
+            </p>
+            <p>But to return to the B. Virgin, I think it very agreeable to my preſent ſubject and undertaking, to tell you the ſtory of her Aſſumption out of the Office, which I have ſo often cited,<note place="margin">Ex antiquâ ac<g ref="char:EOLhyphen"/>cepimus tradi<g ref="char:EOLhyphen"/>tione quod tem<g ref="char:EOLhyphen"/>pore glorioſae dormitionis, <hi>&amp;c.</hi> Quartâ die in<g ref="char:EOLhyphen"/>fra Octavam Aſſumptionis, B. <hi>Mariae, Lect. 4.</hi>
+               </note> and which gives us this account thereof. When ſhe died, all the Apoſtles, whereſoever diſperſed to preach the Goſpel, were ſuddenly caught up in the air, and brought to <hi>Jeruſalem.</hi> Being met together, a viſion of Angels appeared to them, and the Viſion was attended with a ſweet Pſalmody of the heavenly powers, in which the B. Virgin reſigned her ſoul into the hands of God in a glorious manner, and the An<g ref="char:EOLhyphen"/>gels and Apoſtles continuing to ſing together, her body was carried out, and put in a Coffin, and buried at <hi>Gethſemane,</hi> where the Angels continued to ſing three days together. At the end of three days, <hi>Thomas,</hi> who was not with the Apoſtles when ſhe died, came to <hi>Jeruſalem,</hi> and being deſirous to worſhip the Body of the B. Virgin, they went to <hi>Gethſemane</hi> to take it up; but when they had opened the grave, and the
+<pb n="19" facs="tcp:49583:13"/> Coffin, to their great aſtoniſhment there was no <hi>body</hi> there, and they all agreed in this opinion, that it had pleaſed the Word of God, and the Lord of Glory, who took his body out of the B. Virgin, not to ſuffer hers to ſee corruption, but to do her the honour to tranſlate it into Heaven, before the com<g ref="char:EOLhyphen"/>mon and univerſal reſurrection.</p>
+            <p>I cannot but obſerve here, how that <hi>Thomas</hi> was abſent at this meeting of the Apoſtles, juſt as he was at that in which <hi>Jeſus</hi> ſtood in the midſt of them, and ſhewed unto them his hands and his ſide. Poor unfortunate Apoſtle! that art al<g ref="char:EOLhyphen"/>ways tardy, and canſt never come in time to meet the reſt of thy Brethren. But perhaps he was at the <hi>Indies,</hi> and had a greater journey than the reſt, who were nearer to <hi>Jeruſalem.</hi> I am as content as any man to admit this excuſe, and if you further deſire to know what death the B. Virgin died of, the <hi>Author of the Contemplations</hi> will tell you,<note place="margin">p. 80.</note> that <hi>ſhe died of a ſpiritual Feaver, into which ſhe fell through a Seraphick vehe<g ref="char:EOLhyphen"/>mency of divine love,</hi> which enflamed her blood, and ſet her ſacred heart on fire; and that her aſſumption was on this manner, <hi>Her glorious ſoul,</hi> ſaith he,<note place="margin">p. 84.</note> 
+               <hi>deſcended from her Impe<g ref="char:EOLhyphen"/>rial ſeat in Heaven, accompanied with Seraphims and chiefeſt Saints, and re-aſſumed her ſacred body, and aſcended with it again, and placed it above all the troops of the bleſſed.</hi>
+               <note place="margin">p. 89.90, &amp;c.</note> Being aſſumed in body and ſoul int<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eaven, ſhe was ſeated on a Throne above all Seraphims, next to the moſt Glorious Tri<g ref="char:EOLhyphen"/>nity, and inaugurated, proclaimed, and acknowledged, <hi>Queen of all pure creatures,</hi> and at her Coronation ſhe was cloathed with the Sun, and had the Moon for her footſtool, and was Crowned with an Imperial Crown of twelve Stars. And truly in ſome of her Offices, the 1st verſe of the 12th chap. of the <hi>Revelations</hi> is applyed to her, where it is written, <hi>And there appeared a great wonder in heaven, a woman cloathed with the ſun, and the moon under her feet, and upon her head a crown of twelve ſtars.</hi>
+            </p>
+            <p>After this ſhort account of the manner of their praying to her, and the hiſtory of her Aſſumption and Coronation, I ſhall only re-mind you of the divine Titles by which they in<g ref="char:EOLhyphen"/>voke her in their Offices, as <hi>Queen of heaven, Mother of grace, ſweet Parent of mercy, the Gate of the great King, the only hope of ſinners;</hi> to which I may add, <hi>Queen of Angels,</hi>
+               <note place="margin">p. 12.62.</note> 
+               <hi>Adoptive mother, Patroneſs of man, Advocate of ſinners,</hi> and more of the ſame nature in this book of the <hi>Contemplations,</hi> where the Au<g ref="char:EOLhyphen"/>thor
+<pb n="20" facs="tcp:49583:14"/> addreſſes himſelf unto her in theſe words, <hi>I chuſe thee O glorious Mother of</hi> Jeſus,<note place="margin">
+                  <hi>Pag.</hi> 86.</note> 
+               <hi>to be my Patroneſs, Advocate, and Adoptive Mother, admit me, O powerful Queen of Angels, among thy Clients, ſuppreſs my Enemies, manage my cauſe in the Court of our Requeſts. — ah, permit not my Soul to periſh, for which thy Son</hi> Jeſus <hi>did ſhed thoſe precious drops of bloud, which he received from the rich fountain of thy loving heart.</hi>
+            </p>
+            <p>Thus have I ſhewed you out of the Offices of the <hi>Latin</hi> Church, how extravagant the Votaries of the B. Virgin are in the honour, which they render unto her; and for which I am ſure there is no ground, neither in my Text, nor in any other place of the holy Scripture; not in my Text, in which I ſhew<g ref="char:EOLhyphen"/>ed that there is not one word, but which the Angel might have uſed in ſaluting any other Righteous perſon, as well as the V. <hi>Mary;</hi> nor in any other place of Scripture, where ſhe is mentioned: but on the contrary, there are many places which teach us, that we ſhould not think of her above the con<g ref="char:EOLhyphen"/>dition of an humane Creature.</p>
+            <p>Thus at the marriage in <hi>Cana</hi> in <hi>Galilee,</hi> when ſhe told our Saviour there was no Wine, <hi>Woman,</hi> ſaith he, <hi>what have I to do with thee?</hi> When ſhe ſaid unto him, <hi>Why haſt thou dealt thus with us? thy Father and I have ſought thee ſorrowing;</hi> he ſaid unto them, <hi>How is it that ye ſought me? wiſt ye not that I muſt be about my Fathers buſineſs?</hi>
+            </p>
+            <p>When a woman, in admiration of him, <hi>lift up her voice and ſaid, Bleſſed is the womb that bare thee, and the paps which thou haſt ſucked,</hi> he anſwered, <hi>Yea rather bleſſed are they that hear the word of God, and keep it.</hi> Another time when ſome told him, that his Mother and Brethren ſtood without, deſiring to ſpeak with him, he ſaid, <hi>Who is my Mother, and who are my Brethren?</hi> and then ſtretching forth his hands towards his Diſciples he ſaid, <hi>Behold my Mother and my Brethren, for whoſoever doth the will of my Father which is in Heaven, the ſame is my Mother, and Siſter, and Brother.</hi>
+            </p>
+            <p>When he ſaw his Mother ſtanding by the Croſs, and the Diſciple whom he loved ſtanding by her, he ſaid no more unto her, but <hi>Woman behold thy Son;</hi> and to him nothing elſe but <hi>Behold thy Mother.</hi> And <hi>S. Paul</hi> having occaſion to mention her, upon the account of Chriſt's Incarnation, ſaith no more than this, <hi>When the fulneſs of time was come, God ſent forth his Son, made of a WOMAN, made under the law.</hi>
+            </p>
+            <pb n="21" facs="tcp:49583:14"/>
+            <p>Having now ſhewed out of the <hi>Latin Offices,</hi> how extrava<g ref="char:EOLhyphen"/>gant the Votaries of the B. Virgin are in the honours which they pay unto her, I proceed to ſhew the ſame out of the An<g ref="char:EOLhyphen"/>cient and Modern approved Authors of the <hi>Latin Communion.</hi> But I ſhall begin with the Modern, and particularly with the Contemplations on her life and glory; where the Author calls her, <note n="‖" place="margin">Ep. Dedicat.</note> 
+               <hi>Queen of Seraphims, and Queen of Heaven,</hi> and ſaith that, <hi>whatever can be ſaid of her, will be infinitely too nar<g ref="char:EOLhyphen"/>row to fill the Orbs of her exuberant Sanctity, Grace, and Glory;</hi> and that <hi>with trembling he attempted to explain the myſtery of her Life and Glory, leſt ſearching into the holies of ſo</hi> great a Majeſty, <hi>he ſhould be oppreſſed with its ſplendors.</hi>
+            </p>
+            <p>He ſaith, <hi>It is impoſſible for a pure Creature to unfold the im<g ref="char:EOLhyphen"/>menſe attributes of her Maternity.</hi> And truly they cannot but be immenſe, if <hi>the prerogatives of Grace and Glory in her, and</hi> Jeſus <hi>are not diſtinct perfections, but one and the ſame attribute,</hi> as he proves out of one of their own Writers. He ſaith that, <hi>Whatever gifts are beſtowed upon us by</hi> Jeſus,<note place="margin">
+                  <hi>Pag.</hi> 7.</note> 
+               <hi>we receive them by the mediation of</hi> Mary, <hi>and that ſhe hath full power, as a Mother, to obtain of her Son whatever he can ask of God the Father; and that no one ever petitioned her, who was refuſed by him, or truſted in her, who was abandoned by him;</hi> and that,<note place="margin">
+                  <hi>Pag.</hi> 16.</note> 
+               <hi>he bleſſeth thoſe whom ſhe bleſſeth, and owns them for his Diſciples,</hi> whom ſhe adopts for her Children.</p>
+            <p>This is a new ſort of Divinity, which the Apoſtles and their Scholars never taught the World. They told us but of one Mediator in Heaven, to whom we ſhould immediately apply our ſelves, but here we are told of two, of <hi>Jeſus</hi> who is a Mediator with God the Father, and of <hi>Mary,</hi> who is as powerful a Mediatrice with <hi>Jeſus,</hi> as he is with his Father; and if this be true, it is no matter to which of the two we pray, or whether we pray to him or no, ſince <hi>no one ever peti<g ref="char:EOLhyphen"/>tioned her, who was refuſed by him.</hi>
+            </p>
+            <p>He further ſaith,<note place="margin">
+                  <hi>Pag.</hi> 96.</note> that <hi>Her ſacred body is endowed with a ſuperſeraphical activity, whereby ſhe can render her ſelf preſent in a moment, to all her Votaries, and aid them at any diſtance;</hi> and upon theſe two ſuppoſitions of her full mediatory power, and preſence in all places, we need not wonder at the follow<g ref="char:EOLhyphen"/>ing Devotions.</p>
+            <q>
+               <l>
+                  <hi>V.</hi> Open my lips O Mother of <hi>Jeſus.</hi>
+                  <note place="margin">
+                     <hi>Pag.</hi> 23.</note>
+               </l>
+               <l>
+                  <hi>R.</hi> And my Soul ſhall ſpeak forth thy praiſe.</l>
+               <pb n="22" facs="tcp:49583:15"/>
+               <l>
+                  <hi>V:</hi> Divine Lady be intent to my aid.</l>
+               <l>
+                  <hi>R.</hi> Graciouſly make haſt to help me.</l>
+               <l>
+                  <hi>V.</hi> Glory be to <hi>Jeſus</hi> and <hi>Mary;</hi>
+               </l>
+               <l>
+                  <hi>R.</hi> As it was, is, and ever ſhall be.</l>
+            </q>
+            <p>
+               <note n="*" place="margin">Pag. 24.</note> 
+               <hi>Holy Mary, Mother of God, pray for us now and in the hour of death.</hi> Bid <hi>us, be bleſſed, O holy</hi> Mary. <hi>And</hi> 
+               <note n="‖" place="margin">Pag. 101.</note> 
+               <hi>O ſacred Virgin, Mother of God, Queen of Angels, Empreſs of Saints, Refuge of Sinners, and my ſpecial Patroneſs and Advocate, unto thy cuſtody I commit and recommend my ſelf, with all the powers, paſſions, and motions of my body, and mind, and all living and dead, eſpecially thoſe whom I would or ſhould pray for, humbly entreating thee, through all thy mercies, and merits, thy privi<g ref="char:EOLhyphen"/>ledges, and power, and by whatever is deareſt unto thee, that we may be admitted to be thy Children, Servants, and Devotes, that we may be protected, directed, aſſiſted, and comforted by thee; and that by thee we may be preſented to God the Father, God the Son, and God the Holy Ghoſt;</hi> with much more, too long to be tranſcribed. To which I ſhall add this bleſſing. <note n="*" place="margin">Pag. 24.</note> 
+               <hi>Through the merits and interceſſion of the Mother of</hi> Jeſus, <hi>may we come to the harbour of Eternal Salvation;</hi> and this, <note n="‖" place="margin">Pag. 103.</note> 
+               <hi>Through the mediation of the moſt glorious Virgin Mother of</hi> Jeſus, <hi>may God the Father, Son, and Holy Ghoſt, bleſs and keep us now and for evermore.</hi>
+               <note place="margin">Pag. 25.</note> And this Cantique, <hi>Let us praiſe thee O Mother of</hi> Jeſus, <hi>let us acknowledge thee our Sovereign Lady, let men and Angels give honour to thee, the firſt conceived of all pure Creatures, to thee the morning-Stars, and higheſt Se<g ref="char:EOLhyphen"/>raphims ſing glory for thy magnificence, make interceſſion for us O powerful Mother of</hi> Jeſus, <hi>for God will not refuſe thee our Pe<g ref="char:EOLhyphen"/>titions, then ſhall we rejoyce in the fulneſs of thy glory, and ſhall ſing the praiſes of</hi> Jeſus <hi>for ever.</hi>
+            </p>
+            <p>You may perceive by the ſtile of this Cantique, that it was compoſed in imitation of the <hi>Te Deum;</hi> of which I ſhall ſpeak more hereafter.</p>
+            <p>From the Contemplations I paſs to the Pſalter of the B. Virgin <hi>Mary,</hi> which was compoſed in the <hi>French</hi> Tongue, by a Father of the Society of <hi>Jeſus,</hi> and tranſlated into <hi>Eng<g ref="char:EOLhyphen"/>liſh,</hi> and Printed with allowance in 1624; out of which I ſhall preſent you with a few Petitions, to which I need not crave your attention.</p>
+            <p>
+               <note place="margin">1. Petition.</note>
+               <q rend="margQuotes">O glorious Virgin grant me grace, that I may receive pardon for my ſins, draw near unto me O bleſſed Virgin,
+<pb n="23" facs="tcp:49583:15"/> who art the Mother of the afflicted, my Enemies are gather<g ref="char:EOLhyphen"/>ed together againſt me, and I have this only refuge to caſt my ſelf under the ſhadow of your wings, defend me againſt their enterpriſes, and bring them all to ſhame and confuſi<g ref="char:EOLhyphen"/>on. <hi>Your Majeſty</hi> and greatneſs, together with the incre<g ref="char:EOLhyphen"/>dible ſweetneſs of your <hi>infinite mercy,</hi> have obliged my lips to publiſh the praiſes of no other than of your ſelf. Be you glorified O moſt amiable Virgin, together with your ſweet Son <hi>Jeſus,</hi> both now and evermore. Give my Soul entrance into Paradiſe, when it ſhall leave the Body, and by your holy prayers deliver me from the dreadful pains of Hell; and let all that is due unto me for my ſins be cancelled by your merits. You have been the cauſe that God took humane fleſh upon him, you then as a Mother can obtain for us all that which we ask of him. — He will pardon us for the love of you — Remember our humanity, and grant that we may find grace with you, who art the Foun<g ref="char:EOLhyphen"/>dreſs of our grace and Salvation. Stretch forth your hand to draw me out of the filthineſs of my ſins, and let the great<g ref="char:EOLhyphen"/>neſs of your mercy blot out the multitude of my offences, ſupplying by your merits, what in juſtice I dare not demand. Turn not your face away from me, for I put my truſt in you. <note n="‖" place="margin">2. Petition.</note> You are the Sanctuary into which I deſire to retire — I magnifie you as the Foundreſs of Grace; I will never ceaſe to beſeech you with all my deſires, and affections — until I know that you have beheld me with compaſſion, and gi<g ref="char:EOLhyphen"/>ven ear to my prayers. I will humble my heart before you, for I know that the proud ſhall not be entertained near un<g ref="char:EOLhyphen"/>to your <hi>ſacred Majeſty</hi> — If you do not undertake our de<g ref="char:EOLhyphen"/>fence, how ſhall we do to appear before <hi>Jeſus?</hi> — put words into my mouth that I may worthily praiſe you, ſince the Heavens themſelves ſet forth your glory, and that all Creatures call upon you, when they are oppreſſed — as ſoon as you extend your hand upon the ſick, they are healed, and the waves of this troubleſom world are ſoon appeaſed by your commandment. — I will never ceaſe to praiſe and exalt you with Hymns, Pſalms, and Canticles, but day by day will I render you my vows. Receive my Soul into your hands when it ſhall leave this mortal Body, and take it into your protection, for it will be loſt with fear, and will not know to what ſide to turn to ſave it ſelf, unleſs under the ſhadow of your mercy. Obtain for me by your grace a
+<pb n="24" facs="tcp:49583:16"/> place of perpetual habitation, among thoſe who be in Paradiſe, there to enjoy the felicity, which the Souls of thoſe who have devoutly ſerved you, do eternally poſſeſs. O bleſſed Virgin,<note n="‖" place="margin">3. Petition.</note> 
+                  <hi>mother of unlimited power,</hi> adored and called upon by the Univerſe, give me ſtrength to reſiſt the temptations of my inviſible enemies— if you ſhould have forſaken me, to whom ſhould I have then repaired, that would have looked upon me with pity and compaſſion, I will confeſs your name, among all Nations, becauſe it is holy— and will make known to all, the <hi>Majeſty</hi> of your great<g ref="char:EOLhyphen"/>neſs.</q>
+            </p>
+            <p>All the fifteen Petitions in this Pſalter are full of ſuch like devotions, and the laſt of them concludes thus:</p>
+            <p>
+               <q rend="margQuotes">Be pleaſed with my prayers, O ſacred Virgin, and may it pleaſe you not to reject this little Pſalter dedicated to your <hi>Sacred Majeſty,</hi> a part whereof I will recite before you every day, to the end you may receive my ſoul into your boſom, when it ſhall depart out of this world into an<g ref="char:EOLhyphen"/>other life.</q>
+            </p>
+            <p>I muſt further acquaint you, that this Author who made this Pſalter in imitation of the Pſalter of <hi>David,</hi> adviſeth his Reader to ſay theſe Pſalms before an Image of the bleſſed Virgin <hi>Mary</hi> in ſome holy place, or Oratory, and before every Petition to ſay the <hi>Ave Maria</hi> in Engliſh, and the Tran<g ref="char:EOLhyphen"/>ſlator of it doth aſſure the Lady, to whom he Dedicates it, that it had the <hi>approbation of the better ſort of Catholicks,</hi> and was preſented to one of the greateſt Queens of <hi>Europe</hi> in its French attire.</p>
+            <p>The Author alſo tells us, that he hath put the <hi>Angels Salu<g ref="char:EOLhyphen"/>tation</hi> before every Petition, to implore the favour of the Sa<g ref="char:EOLhyphen"/>cred Virgin, and this he did conformably to the <hi>Latin Offi<g ref="char:EOLhyphen"/>ces,</hi> which abound with <hi>Ave Maries,</hi> though I profeſs I can<g ref="char:EOLhyphen"/>not tell, why they ſhould convert a pure Salutation, which I have ſhewed conſiſts of common forms of Speech, into a form of Invocation. Why ſhould that, which might have been ſpoken by the Angel to any other righteous perſon be eſteem<g ref="char:EOLhyphen"/>ed ſuch an acceptable Sacrifice of Praiſe to her? and yet the Myſtery of the holy <hi>Roſary,</hi> which we are <note n="‖" place="margin">In the Ad<g ref="char:EOLhyphen"/>vertiſement be<g ref="char:EOLhyphen"/>fore the method of ſaying the Roſary.</note> told the bleſſed Virgin revealed to <hi>Dominic</hi> [I muſt be pardoned that I can<g ref="char:EOLhyphen"/>not add Saint] conſiſts in ſaying one <hi>Pater noſter,</hi> and ten <hi>Ave Maries</hi> at a time, with one Prayer to the Virgin <hi>Mary,</hi> after a Meditation upon ſomething that happened, or that
+<pb n="25" facs="tcp:49583:16"/> they ſay happened to her, and I muſt confeſs, I cannot un<g ref="char:EOLhyphen"/>derſtand, how any Office, wherein there are ten, or eleven Invocations of <hi>Mary</hi> for one Prayer to God, <note n="‖" place="margin">Ibid.</note> 
+               <hi>ſhould be moſt efficacious for obtaining all favours from him, and averting all evils from our ſelves.</hi> Such knowledge is too wonderful for me, I cannot attain unto it, but I muſt for ever be con<g ref="char:EOLhyphen"/>tent to be ranked <note n="‖" place="margin">1 <hi>Serm. p</hi> 6. <hi>Serm.</hi> 6. <hi>p.</hi> 5.</note> 
+               <hi>among thoſe babes who are to be fed with milk, and not with ſuch ſtrong meat.</hi> My ſtomach will not di<g ref="char:EOLhyphen"/>geſt it, <hi>I have not been hitherto able to bear it, neither yet am able, nor to beg her interceſſion,</hi> or hope to obtain the aſſiſtance of the Holy Ghoſt by ſaying an <hi>Ave Maria</hi> to her; I neither underſtand nor believe how the repetition of the <hi>Angels meſ<g ref="char:EOLhyphen"/>ſage</hi> can warrant the expectation of ſuch bleſſings from God by the Mediation of the B. Virgin, nor can I perſuade my ſelf to ſay with the Votaries of <hi>Loretto, we fly to your patro<g ref="char:EOLhyphen"/>nage O Sacred mother of God, deſpiſe not our prayers in our ne<g ref="char:EOLhyphen"/>ceſſities, but deliver us from all dangers O ever glorious, and bleſſed Virgin.</hi>
+            </p>
+            <p>
+               <note n="‖" place="margin">Horolog. Aſcet.</note> Cardinal <hi>Bona</hi> a late, and moſt approved Writer of the Latin Church tells us, that the <hi>Roſary</hi> is ſo called, becauſe it is compoſed of 150 <hi>Ave Maries,</hi> as of ſo many ſweet-ſmelling Roſes; as if the 15 <hi>Pater noſters</hi> in it did not ſmell as ſweet as they: and though he is one of the approvers of Mr. <hi>de Meaux</hi> his Expoſition, which ſaith, <hi>they only pray to Saints to pray for them,</hi> yet in his <note n="‖" place="margin">Ibid.</note> Paraphraſe on the An<g ref="char:EOLhyphen"/>gels Salutation, he ſaith very extravagant things of her, and in another place prays unto her, as unto a Donor in the fol<g ref="char:EOLhyphen"/>lowing words, <q rend="margQuotes">Protect me, O ſweeteſt Virgin <hi>Mary,</hi> un<g ref="char:EOLhyphen"/>der the ſhadow of thy wings, and never let thy name, which flows with hony, depart from my mouth, and heart, be not far from me, O moſt powerful mother of God, becauſe my enemies compaſs me round about. What can I do without thee, O bleſſed Virgin, or what would become of me, if thou ſhouldeſt turn away thy face from me? When wilt thou come, O moſt ſweet Virgin, when wilt thou appear to thy moſt unworthy ſervant? Thy breath, O <hi>Mary,</hi> is ſweeter than honey, and the poſſeſſion of thy love above Gold, and precious Stones. Let my Soul perceive the ſweet<g ref="char:EOLhyphen"/>neſs of thy Love, and be always employed in thy praiſes, becauſe thou art my comfort next after God. Have com<g ref="char:EOLhyphen"/>paſſion on my Soul, that breaths after thee, have a regard unto me, and make haſt to help me. Grant me thy grace,
+<pb n="26" facs="tcp:49583:17"/> that I may always rejoyce in thee, and after this time of exile, behold thee in glory. My Soul breatheth after thee, as a child doth after the boſom of his mother, O deſpiſe me not thou mother of mercy. <hi>How vehemently do I deſire to ſee thy face, O moſt beautiful Virgin,</hi> take me up quickly un<g ref="char:EOLhyphen"/>to thee, and fulfil my deſire. Who can forbear loving of thee, O Queen of hearts, and mother of holy love, who can forbear loving of thee? O that all creatures might ſerve thee, and live, and dy in thy love. Receive my heart O moſt beloved mother, and offer it with thy moſt holy hands to thy moſt holy Son. I rejoyce, and exult, O bleſſed Virgin, that God loveth thee above all his works, and am delighted with it above all things, and I had rather undergo the pains of hell, than that thy glory, and dignity ſhould be the leaſt diminiſhed for a moment of time. Let all that know thy name, truſt in thee, O Glorious Virgin, becauſe thou doſt not forſake thoſe, that truſt in thee. Let the Light of thy Countenance appear unto me in my Agony, and let thy Comfort (moſt merciful mother) make glad my de<g ref="char:EOLhyphen"/>parting Soul.</q>
+            </p>
+            <p>I might here add his Prayers to Saints, and Angels in the like ſtrain, and his Invocation of the Five wounds of Chriſt, but my preſent undertaking obliges me only to take notice of the extravagant honour, which the Votaries of the Bleſſed Virgin are wont to pay unto <hi>her.</hi>
+            </p>
+            <p>From Cardinal <hi>Bona,</hi> I proceed to <hi>John Peckham</hi> formerly Archbiſhop of <hi>Canterbury,</hi> who at the end of the Preface to this Pſalter of the Bleſſed Virgin not yet printed, prays her, that ſhe would be pleaſed <hi>to releaſe the ſins of all thoſe for whom he prayed,</hi>
+               <note place="margin">
+                  <hi>Uſher's</hi> An<g ref="char:EOLhyphen"/>ſwer to a chal<g ref="char:EOLhyphen"/>lenge, &amp;c. <hi>P. 493.</hi>
+               </note> 
+               <hi>and cauſe both his name, and theirs to be written in the book of life.</hi> In the firſt Pſalm of it he prayeth her <hi>to make us to meditate often on Gods Law, and to be made bleſſed in the glory of his kingdom,</hi> and all the reſt are filled with Peti<g ref="char:EOLhyphen"/>tions of the like nature. From <hi>Peckham</hi> I go on to Cardinal <hi>Bonaventure,</hi> who ſhines in the Calender of the Latin Saints. He flouriſhed about 430 years ſince, when Superſtition was in its Zenith, and darkneſs covered the face of the earth. He wrote ſeveral Tracts in honour of the Virgin <hi>Mary,</hi> one cal<g ref="char:EOLhyphen"/>led the Bleſſed Virgins <note n="‖" place="margin">Speculum beatae Virginis.</note> mirrhour, which is a moſt extrava<g ref="char:EOLhyphen"/>gant Paraphraſe upon the Angels Salutation, wherein he ap<g ref="char:EOLhyphen"/>plies to the Bleſſed Virgin in the Myſtery, whatever is Lite<g ref="char:EOLhyphen"/>rally ſaid of Queen <hi>Eſther,</hi> and the Queen of <hi>Sheba</hi> in the
+<pb n="27" facs="tcp:49583:17"/> holy Scriptures. He obſerves, that her Name ſignifies <hi>Lady,</hi> and that it agrees very well to ſo great an Empreſs, who is Queen of Angels, Men and Devils, and of things in Heaven, things in Earth, and things under the Earth; and in the con<g ref="char:EOLhyphen"/>cluſion of the Prologue to his <hi>Mirrhour,</hi> he thus be ſpeaks her: <hi>O moſt benign Lady</hi> Mary, <hi>accept of this ſmall gift, which thy poor friend offers up unto thee. I Salute thee with this little book upon my bended knees, and with my bowed head, I Salute thee with heart, and mouth, and ſay AVE MARIA.</hi> He com<g ref="char:EOLhyphen"/>poſed another Office called the <hi>Crown</hi> of the bleſſed Virgin, where one of the <hi>Orizons</hi> preſcribed to be ſaid unto her, is as follows, <hi>O Empreſs and our moſt kind Lady, by the autho<g ref="char:EOLhyphen"/>rity of a mother</hi> 
+               <note n="‖" place="margin">Jure matris imperae tuo di<g ref="char:EOLhyphen"/>lectiſſimo ſilio. Corona B. Vir<g ref="char:EOLhyphen"/>ginis, <hi>Tom. 6. Edit. Rom. 1588.</hi>
+               </note> 
+               <hi>command thy moſt beloved Son our Lord Je<g ref="char:EOLhyphen"/>ſus Chriſt, that he would vouchſafe to lift up our minds from the love of earthly things unto heavenly deſires.</hi> The harſhneſs of this petition is a little qualified in another <note n="*" place="margin">Pſal. Bonav. edit. Pariſ. <hi>1596.</hi>
+               </note> Edition thus: <hi>Incline the countenance of thy Son upon us, compel him by thy Prayers, to have mercy upon us ſinners.</hi> Which puts me in mind of that ſentence of <hi>Anſelm</hi> in his Treatiſe of the excellence of the B. Virgin, that <hi>more preſent relief is ſometimes found by Commemorating the name of</hi> Mary, <hi>than by calling upon the name of our Lord Jeſus her only Son.</hi> This extravagant ſaying of <hi>Anſelm</hi> hath been ſince uſed by another of the Virgins Vo<g ref="char:EOLhyphen"/>taries <note n="‖" place="margin">Anſwer to a challenge. <hi>p. 495.</hi>
+               </note> as Biſhop <hi>
+                  <g ref="char:V">Ʋ</g>ſher</hi> obſerves.</p>
+            <p>But to return to Cardinal <hi>Bonaventure,</hi> he hath made many other Offices in the Virgins praiſe, of which, that which he calls <hi>the Pſalter of the bleſſed Virgin</hi> is moſt remarkable. It conſiſts of the Pſalms of <hi>David</hi> converted into Forms of Prayer, and Thankſgivings, and Praiſes unto her by putting <hi>Lady</hi> in the place of <hi>Lord.</hi> The firſt verſe of the 93. Pſalm is this, <hi>Deus ultionum Dominus, ſed tu mater miſericordia ad miſerandum inflectis; God is a God of vengeance, but thou, O mother of mercy art inclined to ſhew mercy.</hi> At the end of this Pſalter he hath tranſproſed the Hymns of the Church, the <hi>Benedicite,</hi> the <hi>Benedictus,</hi> and the <hi>Te Deum</hi> into her praiſe, which begins thus: <q rend="margQuotes">We praiſe thee the mother of God, we acknowledge thee to be a Virgin, all the earth doth wor<g ref="char:EOLhyphen"/>ſhip thee, the Spouſe of the eternal Father, all Angels, and Archangels, all Thrones, and Powers do faithfully ſerve thee, to thee all Angels cry aloud, with a never-ceaſing voice, holy, holy, holy <hi>Mary</hi> mother of God— the whole Court of heaven doth honour thee as Queen, the holy Church
+<pb n="28" facs="tcp:49583:18"/> throughout all the world doth invoke and praiſe thee the <hi>Mother of Divine Majeſty,</hi> &amp;c.</q> Nay, he hath alſo Tranſ<g ref="char:EOLhyphen"/>proſed the <hi>Athanaſian</hi> Creed into a form of Confeſſion to her honour, and it begins thus: <q rend="margQuotes">Whoſoever would be ſaved, before all things it is neceſſary, that he hold a firm Faith concerning <hi>Mary;</hi> which Faith except every one do keep whole, and undefiled, without doubt he ſhall periſh ever<g ref="char:EOLhyphen"/>laſtingly; and then <hi>though her Aſſumption into Heaven, her ſitting at the right hand of Chriſt, and never ceaſing to pray for us, be made Articles of that Creed,</hi>
+               </q> yet it concludes thus: <q>
+                  <hi>This is the true Faith concerning</hi> Mary, <hi>which except a man be<g ref="char:EOLhyphen"/>lieve firmly, and faithfully, he cannot be ſaved.</hi>
+               </q>
+            </p>
+            <p>From <hi>C. Bonaventure</hi> I go on to <hi>Arnoldus Carnotenſis,</hi> who lived about Five hundred years ago, and wrote an extrava<g ref="char:EOLhyphen"/>gant <note n="‖" place="margin">Inter opuſc. adſcripta Cy<g ref="char:EOLhyphen"/>priano, Ed. Oxon. 1682.</note> Tract, in the praiſes of the bleſſed Virgin, in which he ſaith, that <hi>if he had the Tongues of Men, and Angels, he could not worthily ſet forth the glory of the holy, and ever-bleſſed Virgin.</hi> He ſaith, <hi>She is exalted above all Creatures; and that whoever bows his knee to</hi> Jeſus, <hi>muſt alſo fall proſtrate be<g ref="char:EOLhyphen"/>fore</hi> Mary; he ſaith, <hi>they have both one fleſh, one Spirit, and one love, and one glory; that ſhe cannot be ſeparated from his dominion, and power, and that they both ſtand before the face of God to interceed for us, and obtain remiſſion of ſins.</hi>
+            </p>
+            <p>From <hi>Arnoldus</hi> I proceed to <hi>Bernard,</hi> who flouriſhed almoſt Six hundred years ago. He was bred a Monk in a dark Age, and his Sermons of the Virgin <hi>Mary</hi>'s Aſſumption are full of very extravagant, and unwarrantable expreſſions. He calls her <hi>the Queen of Heaven, and Queen of mercy, and Lady of all things.</hi> He ſaith, <q rend="margQuotes">When ſhe aſcended on high, ſhe alſo gave good gifts unto men, ſeeing ſhe neither wanted pow<g ref="char:EOLhyphen"/>er, nor will: Not power, becauſe ſhe was the Mother of God; nor will, becauſe all her bowels were Charity.</q> He talks much about her Coronation, and ſaith, <q rend="margQuotes">That no man can find out the length, and breadth, and heighth, and depth of her mercy; and that Chriſt beſtows all his gifts and graces through her, and exhorts us to give God thanks, who in mercy provided us ſuch a <hi>Mediatrice;</hi>
+               </q> and in ſhort, what apprehenſions he had for her, may be ſeen from a prayer, which begins thus: <q rend="margQuotes">We lift our hearts, and eyes, and hands unto thee O Queen of the World, we kneel, and bow before the glory of thy highneſs, and ſend up our prayers with ſighs unto thee to Heaven.</q> The reſt
+<pb n="29" facs="tcp:49583:18"/> of the prayer is like the beginning, and towards the latter end of it he hath this expreſſion, <q rend="margQuotes">Speak O Lady, for thy Son hears, and will grant whatſoever thou ſhalt ask.</q>
+            </p>
+            <p>There are alſo many ſuch extravagant and unwarrantable things ſaid of her, and many prayers directed unto her in the Homilies <hi>de Tempore</hi> upon Chriſt's Nativity, and the Homi<g ref="char:EOLhyphen"/>lies <hi>de Sanctis,</hi> eſpecially in that of the Aſſumption falſely aſcribed to <hi>S. Auguſtin,</hi> as the writers of the Latin Church are forced to acknowledge.</p>
+            <p>I have alſo omitted the extravagant ſayings, and notions about her in the School-men, as that her <note n="‖" place="margin">Suarez. 3. p. diſp. 18. S. 4.</note> Grace was greater in the firſt moment of her Conception, than the Grace of the higheſt Angel; and that in the ſecond it was doubled, and ſo increaſed in Geometrical proportion unto her lives end; and that ſhe was dearer to God than the whole reaſonable Creation, and that he loved her more than the Univerſal Church.</p>
+            <p>I have alſo paſſed over the many Legendous ſtories that are told of her, and to ſhew how dangerous it is for men to mag<g ref="char:EOLhyphen"/>nifie her above the condition of an humane Creature; I think I may tell you of C. <hi>Scribanius,</hi> Provincial of the Belgick Je<g ref="char:EOLhyphen"/>ſuits, who in a rapture of Devotion to the bleſſed Virgin, made a Copy of <note n="*" place="margin">
+                  <p>Haereo lac inter meditans inter<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>; cruorem, Inter delicias uberis, &amp; lateris, <hi>&amp;c.</hi>
+                  </p>
+                  <p>
+                     <hi>There is alſo ſuch a Copy of Verſes in</hi> Gazaeus <hi>his</hi> Pia Hilaria.</p>
+               </note> Latin Verſes, wherein he equals <hi>the benefits, and merit of her milk to that of his bloud.</hi>
+            </p>
+            <p>I have alſo omitted their Ancient Offices, in which there are prayers to <hi>S. Joachim</hi> the Father, and to <hi>S. Anne</hi> the Mo<g ref="char:EOLhyphen"/>ther of the bleſſed Virgin, wherein they put <note n="*" place="margin">
+                  <bibl>
+                     <hi>Breviar. Sar. July 26.</hi>
+                  </bibl>
+                  <p>O vas coeleſtis gratiae, mater Reginae Vir<g ref="char:EOLhyphen"/>ginum, memento mater inclyta, quàm po<g ref="char:EOLhyphen"/>tens es per filiam.</p>
+               </note> her in mind of the power ſhe hath by her Daughter, and tell him, <note n="‖" place="margin">
+                  <bibl>
+                     <hi>Brev. Rom. Antiqu. Mart. 20.</hi>
+                  </bibl>
+                  <p>O Pater ſummae Joachim puellae — potes omne ſi vis, nihil nepos Jeſus meritò negabit, nil tibi nata.</p>
+               </note> that his <hi>Nephew Jeſus,</hi> and his Daughter <hi>Mary</hi> will deny him no<g ref="char:EOLhyphen"/>thing.</p>
+            <p>But you will perhaps ſay, that the <hi>Latin Church</hi> hath laid aſide theſe Devotions: God be thanked for it, and grant the happy time may come when ſhe will lay aſide all the reſt, that I have cited after the example of this truly Catholick, and Apoſtolick Church, of which we are members; but then though ſhe hath laid them aſide, yet ſince ſhe formerly allow<g ref="char:EOLhyphen"/>ed,
+<pb n="30" facs="tcp:49583:19"/> and approved them, ſhe muſt, as a learned <note n="*" place="margin">The Author of the R. De<g ref="char:EOLhyphen"/>votions.</note> Author ob<g ref="char:EOLhyphen"/>ſerves, be anſwerable for them, till ſhe acknowledges ſhe was miſtaken. The rejecting and reform<g ref="char:EOLhyphen"/>ing of theſe, and <note n="‖" place="margin">As of <hi>S. Julian</hi> in Miſſ. ſecund. uſum Sarum, Rothom. Edit. <hi>S. Batilde</hi> ibid. <hi>S. Scholaſtica</hi> ibid. <hi>S Potentiana</hi> ibid. <hi>S. Aldelmus</hi> ibid. <hi>S Martin</hi> B. and Conf. ibid. <hi>S. Sabina</hi> ibid. <hi>S. Andoenus</hi> ibid.</note> other Offices cannot conſiſt with her pretenſions to Infalli<g ref="char:EOLhyphen"/>bility, which I obſerve in anſwer to that Plea, which <hi>ſaith it is moſt reaſon<g ref="char:EOLhyphen"/>able for men to be of the Infallible Church.</hi> I confeſs a man were mad, that would not rather be of an In<g ref="char:EOLhyphen"/>fallible, than a Fallible Church; but then it is obvious to Re<g ref="char:EOLhyphen"/>ply, That it is one thing for a Church to be Infallible, and another for her, or others, to ſay ſhe is ſo; nay, I deſire to know if any Church is ever a jot the more Infallible for pre<g ref="char:EOLhyphen"/>tending to Infallibility; or if thoſe men do not act rationally, who chuſe to continue under the care of Learned and modeſt Phyſicians, that own themſelves Fallible, rather than commit themſelves to thoſe, who give out Bills of this, or that <hi>Infal<g ref="char:EOLhyphen"/>lible Cure.</hi>
+            </p>
+            <p>Thus have I ſhew'd you from the Ancient and Modern ap<g ref="char:EOLhyphen"/>proved Authors of the <hi>Latin</hi> Communion, how extravagant the Votaries of the bleſſed Virgin are in the honors they pay unto her; and as I ſhewed before, that there is no ground for them in Scripture: So I am ſure there is none in the Firſt and Pure Antiquity for above Three hundred years, as will ap<g ref="char:EOLhyphen"/>pear from the manner, in which the ancient Fathers mention'd her, when they had occaſion to ſpeak of her.</p>
+            <p>
+               <hi>S. Ignatius</hi> in his Epiſtle to the <hi>Epheſians,</hi> mentions her by the name of plain <hi>Mary</hi> in the Scripture-ſtile,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> ſaying, <hi>Theſe three great Myſteries, the Virginity, and bringing forth of</hi> Ma<g ref="char:EOLhyphen"/>ry, <hi>and the death of the Lord, were concealed from the Ruler of this World. Juſtin Martyr,</hi> who mentions her ſo often in his Works, upon occaſion of giving an account of our Lords Con<g ref="char:EOLhyphen"/>ception, and Birth, never calls her by any greater Title than the Virgin, or the Virgin <hi>Mary.</hi> 
+               <note n="*" place="margin">L. 3. c. 3. l 7. c. 37.</note> 
+               <hi>S. Irenaeus</hi> mentions her by no other name. <note n="‖" place="margin">Ep. ad Paul. Samoſat.</note> 
+               <hi>Dionyſius Alexandrinus</hi> calls her the holy Virgin <hi>Mary,</hi> and Mother of God. <note n="*" place="margin">Serm. 2. de Annunc. S. Vir<g ref="char:EOLhyphen"/>gin. Mariae.</note> 
+               <hi>Gregorius Thau<g ref="char:EOLhyphen"/>mat.</hi> calls her the holy Mother of God. The Author of the <hi>Queſtions,</hi> &amp;c. falſely aſcribed to <hi>Juſtin Martyr,</hi> calls her the <note n="‖" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> moſt happy or bleſſed Virgin. <note n="*" place="margin">De Virgin. Veland. de carne Chri<g ref="char:EOLhyphen"/>ſti, adverſus Praxeam, adverſus Ju<g ref="char:EOLhyphen"/>daos.</note> 
+               <hi>Tertullian,</hi> whom I ſhould have named before, calls her nothing but the Virgin, or
+<pb n="31" facs="tcp:49583:19"/> 
+               <hi>Mary,</hi> or the Virgin <hi>Mary,</hi> when he was tempted to ſpeak magnificently of her againſt <hi>Jews,</hi> and Hereticks. <note n="*" place="margin">Socrat. hiſt. Eccleſ. l. 7. c. 37</note> 
+               <hi>Origen</hi> in his Commentary on the Epiſtle to the <hi>Romans</hi> calls her the Mother of God. <note n="‖" place="margin">Euſeb. l. 1. c. 7. de vit. Conſt. l. 3. c. 43.</note> 
+               <hi>Euſebius</hi> calls her <hi>Mary</hi> in one place, and the Mother of God in another. <hi>Alexander</hi> Biſhop of <hi>Alexan<g ref="char:EOLhyphen"/>dria</hi> calls her the Mother of God. <note n="*" place="margin">1 vol. ad epiſt. de incar. verb. dei. 2 vol. p. 298.</note> S. <hi>Athanaſius</hi> ſometimes calls her <hi>Mary,</hi> ſometimes the Virgin <hi>Mary,</hi> ſometimes the Holy Virgin, and ſometimes the Mother of God. And how far he was from calling of her <hi>Queen of heaven,</hi> &amp;c. or giving religious reſpect unto her, appears from other <note n="‖" place="margin">Ep. ad Epict. &amp; 3 Orat. cont. Arr.</note> places, where he ſaith, that She is our ſiſter, becauſe we are all the children of <hi>Adam.</hi>
+            </p>
+            <p>Till this time in all Antiquity there is not to be found the leaſt footſtep of Invocating the Virgin, or any other Saint, or of giving Religious worſhip to them. Indeed <hi>Gregory Na<g ref="char:EOLhyphen"/>zianzen</hi> in his <note n="*" place="margin">Orat. 18.</note> Oration upon S. <hi>Cyprian,</hi> tells us how <note n="‖" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Juſtina</hi> ſupplicated the Virgin <hi>Mary</hi> for help, when ſhe found her ſelf aſſaulted by the Magical artifices of <hi>Cyprian</hi> and the De<g ref="char:EOLhyphen"/>vil, but it's evident to any, who is converſant in the wri<g ref="char:EOLhyphen"/>tings of the firſt Three Ages, that there was no ſuch practice of Invocating Saints in the time of <hi>Cyprian,</hi> much leſs before the time of his Converſion, and therefore computing the time when <hi>Gregory</hi> ſpoke that Oration, which was after the the year 370. and the time when <hi>Cyprian</hi> is ſaid to have at<g ref="char:EOLhyphen"/>tempted the Chaſtity of <hi>Juſtina,</hi> which muſt have been before the year 247. when he was made Presbyter, it is not to be imagined, that <hi>Gregory</hi> ſpoke of <hi>Juſtina's praying to the Vir<g ref="char:EOLhyphen"/>gin,</hi> according to the practice of the Age wherein ſhe and <hi>Cy<g ref="char:EOLhyphen"/>prian</hi> lived, but according to the practice of <hi>compellating</hi> Saints, which now firſt began in his own. I call it the practice of Compellating Saints, becauſe the manner of calling upon them in Rhetorical <hi>Apoſtrophes,</hi> and <hi>wiſhes,</hi> and without any circumſtances of religious worſhip, was not as yet, ſtrict<g ref="char:EOLhyphen"/>ly ſpeaking, come up to formal, and proper Invocation, in a ſupplicatory way, with all the ſigns and ſolemnities of worſhip and as it is uſual for Painters to draw men, and women of for<g ref="char:EOLhyphen"/>mer Ages in the garb and dreſſes of their own: ſo it is not unuſual among Writers (eſpecially for Orators) to relate things not according to the uſage and practice of the times, when they were done, but according to the cuſtome of the Age and place in which they live, as a very <note n="*" place="margin">Dallaeus ad<g ref="char:EOLhyphen"/>verſ. Latin. c. 8. p. 51.</note> Learned man hath ſhewed by ſeveral inſtances, that <hi>Gregory,</hi> and other Writers have done.</p>
+            <pb n="32" facs="tcp:49583:20"/>
+            <p>This alone were a ſufficient Anſwer to that ſingle inſtance out of <hi>Gregory,</hi> if the ſtory of <hi>Cyprian,</hi> as he hath related it, were credible in the other particulars; but inſtead of be<g ref="char:EOLhyphen"/>ing credible, it is highly incredible in all the other particu<g ref="char:EOLhyphen"/>lars of it, becauſe there is nothing of them in the life of S. <hi>Cyprian</hi> written by <hi>Pontius</hi> his Deacon, who ſaith not one word of his being a Magician, or of <hi>Juſtina,</hi> or of his attempt<g ref="char:EOLhyphen"/>ing her Chaſtity by Magical Arts before his Converſion, nor of burning his Magical books after it, <hi>&amp;c.</hi> and therefore <hi>her In<g ref="char:EOLhyphen"/>vocating the Virgin</hi> Mary, hath as much truth in it, as his falling in love with her, <hi>&amp;c. Gregory</hi> took them all alike upon truſt, and they are all alike to be believed.</p>
+            <p>I am come now in talking about <hi>Gregory</hi> to the latter end of the Fourth Century, when Superſtition began to get ground, and he eſpecially among other Fathers, gave occaſion to the world of praying by way of Adoration unto Saints, by his Rhetorical, and optative Invocations of them at their ſolemn Commemorations, but how far that Age was in the general practice of it from this religious way of Invocating the bleſ<g ref="char:EOLhyphen"/>ſed Virgin, or other Saints, or from allowing the Invocation of her, by way of Supplication, as a part of worſhip and ſer<g ref="char:EOLhyphen"/>vice due unto her; we may learn from St. <hi>Epiphanius</hi> who flouriſhed at the ſame time with <hi>Gregory,</hi> towards the latter end of the fourth Century; when a certain Sect of women meeting together to worſhip the Virgin <hi>Mary,</hi> offered cer<g ref="char:EOLhyphen"/>tain Cakes unto her, called <hi>Collyrides,</hi> from whence they were called <hi>Collyridians.</hi> This good Biſhop did burn with zeal againſt them, as it appears from his warm way of wri<g ref="char:EOLhyphen"/>ting, in which he hath treated them as Hereticks, and Ido<g ref="char:EOLhyphen"/>laters. <note n="*" place="margin">In a Sermon p. 23.</note> A late Writer acknowledges, that he treated them as Hereticks for offering Cakes unto her, and that in ſo doing, <hi>they gave her more honour than is allowable to a creature:</hi> Nay, if I underſtand his meaning right, he acknowledges, that to offer Cakes unto her, was <hi>to adore her as a goddeſs;</hi> and if offering Cakes unto her was ſo abſurd as he makes it, and ſo <hi>enormous a crime,</hi> even <hi>a Sacrilegious Idolatry,</hi> as he ſpeaks; then me<g ref="char:EOLhyphen"/>thinks to offer Candles, and Incenſe to her is ſo too. I ſhould be glad to underſtand the difference between the <hi>two offerings,</hi> as to the charge of <hi>Epiphanius.</hi> But becauſe he ſo pens his periods, as to make his Reader believe that that Father cal<g ref="char:EOLhyphen"/>led them Hereticks, only upon the account of their <hi>offering</hi> unto her [as if in doing that only, <hi>they raiſed her above the nature
+<pb n="33" facs="tcp:49583:20"/> of a creature</hi>] I beg the Preachers leave to cite him more at large than he hath done, and to make it appear thereby, that the holy Fathers cenſure will reach the honouring of her by Prayer, and external Adoration, as well as by offering unto her, and that thoſe who only practiſe the former according to the direction of the <hi>Latin</hi> Offices, <hi>intrench upon the divine Pre<g ref="char:EOLhyphen"/>rogatives,</hi> and tranſgreſs the bounds, and limits, which the Church in his days put to the honour of the bleſſed Virgin.</p>
+            <p>
+               <note n="‖" place="margin">
+                  <hi>Haereſ.</hi> 69. <hi>S.</hi> 4.</note> After a ſhort account of the Original of Idolatry, which he aſcribes to the Devil, and to the adulterous mind of man, which runs from the worſhip of the one God, as common Strum<g ref="char:EOLhyphen"/>pets do from the chaſte eſtate of Matrimony under one Huſ<g ref="char:EOLhyphen"/>band: he ſaith, indeed, <q rend="margQuotes">The body of <hi>Mary</hi> was holy, but ſhe was not a deity; and ſhe was truly a Virgin, and an <note n="(a)" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> 
+                  <hi>honourable</hi> Virgin, but ſhe was not propoſed to us for <note n="(b)" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> to be <hi>worſhipped,</hi> but did <note n="(c)" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> 
+                  <hi>her ſelf worſhip</hi> him that was born of her own fleſh, and deſcended from Heaven, and the Fathers boſom. <hi>And then adds,</hi> that the Scripture did for this cauſe forewarn us by the mouth of our Lord, who ſaid unto her, <hi>woman what have I to do with thee,</hi> and he called her <hi>woman</hi> leſt any ſhould <note n="(d)" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, S. Aug. <hi>ſaith, Chriſt</hi> admoniſhed <hi>her, and bid her</hi> fear her Son. De Symb. l. <hi>2.</hi> c. <hi>5.</hi> Athanaſ. <hi>ſaith, he</hi> checkt her, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, Qrat. <hi>4.</hi> adverſ. Arr. Chryſoſt. <hi>ſaith, he was</hi> angry <hi>at her.</hi> Ireneus, <hi>that</hi> he repelled her unſeaſonable haſtineſs. l. <hi>3.</hi> c. <hi>18. and</hi> Theophyl. <hi>that</hi> he chid her not without cauſe. <hi>In</hi> Joh. <hi>2.4.</hi>
+                  </note> think too highly of her, there<g ref="char:EOLhyphen"/>by as it were propheſying of the Schiſms and Hereſies that would ariſe about her, that none by too much ad<g ref="char:EOLhyphen"/>miring the Holy Virgin, might fall into this folly of Hereſie.</q>
+            </p>
+            <p>In the <hi>fifth Sect.</hi> he puts this ſmart queſtion, <q rend="margQuotes">Which of the Prophets, ſaith he, permitted any man, much leſs a woman to be <note n="(e)" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> worſhipped? Indeed ſhe is a choſen veſſel, but nevertheleſs a woman, who hath not changed her na<g ref="char:EOLhyphen"/>ture, though ſhe is much honoured as the bodies of Saints are, or to ſpeak more to her praiſe, as <hi>Elias,</hi> who was a per<g ref="char:EOLhyphen"/>petual Virgin from the womb, and taken up into heaven, without ſeeing death, or as S. <hi>John,</hi> who lay in the boſom of our Lord, or as the holy <hi>Thecla.</hi> But <hi>Mary</hi> is more to be honoured than her, upon the account of the diſpenſation, of which ſhe was vouchſafed worthy. But neither is <hi>Elias</hi> to be <note n="‖" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> 
+                  <hi>worſhipped,</hi> tho' he never died, nor <hi>John,</hi> tho' he departed in ſuch a wonderful manner, nor is <hi>Thecla, or any other Saint
+<pb n="34" facs="tcp:49583:21"/> worſhipped.</hi> For we are not under the dominion of the old error to leave the living God, and <note n="‖" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> worſhip his creatures, as it is written, they ſerved and worſhipped the creature, beſides [or <hi>with</hi>] the Creator, and became fools. For if he will not let the Angels be <note n="‖" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> worſhipped, much leſs will he permit the daughter of <hi>Anne</hi> to be wor<g ref="char:EOLhyphen"/>ſhipped, who was begotten, and born, as all other mortals were.</q>
+            </p>
+            <p>In the <hi>ſeventh Sect.</hi> ſaith he, <q rend="margQuotes">Chriſt as the Contriver, and Lord of the affair formed himſelf of the Virgin, as of the ground, but not that ſhe ſhould be worſhipped, or that he intended to make a Deity of her, or that we ſhould bring offerings to her— <hi>he gave her not ſo much as power to baptize, or to bleſs his Diſciples, nor to rule upon the earth, but only to be an</hi>
+                  <note n="‖" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> 
+                  <hi>holy creature, and to be worthy of his kingdom.</hi>— From whence then is the Dragon come again unto us? how comes it to paſs that he renews his devices againſt us, let <hi>Mary</hi> be <note n="‖" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> honoured, but let the Father, Son, and Holy Ghoſt be worſhipped. Let no man worſhip <hi>Mary.</hi> This Myſtery is due to no man, nor woman, nor ought the Holy Angels to ſhare in this Glory— therefore tho' <hi>Mary</hi> be moſt excellent, and holy, and honoured, yet ſhe is not to be worſhipped: <hi>and at laſt concludes thus,</hi> that I may not ſeem too tedious, let it ſuffice to have ſaid, <note n="‖" place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. <hi>Ambroſ l.</hi> 3. <hi>de Spir. S. c.</hi> 12. Maria erat templum Dei, non Deus templi, &amp; ideo ille ſolus adorandus qui operabatur in templo. <hi>Auguſtinus ait,</hi> Hoc etiam ipſos optimos Angelos, &amp; excellentiſſima Dei miniſteria velle credamus, ut unum cum ipſis colamus Deum, cujus con<g ref="char:EOLhyphen"/>templatione beati ſunt— quare honoramus eos charitate non ſervitute,— religet nos Reli<g ref="char:EOLhyphen"/>gio uni omnipotenti Deo.
+<bibl>
+                        <hi>Lib. de verâ relig. cap.</hi> 55.</bibl>
+                  </note> 
+                  <hi>let Mary be ho<g ref="char:EOLhyphen"/>noured, and our Lord worſhipped.</hi>
+               </q>
+            </p>
+            <p>I appeal to the Conſcience of any Learned Votary of the Bleſſed Virgin, whether the Chriſtians of the <hi>Latin</hi> Commu<g ref="char:EOLhyphen"/>nion do not give her ſuch Worſhip, as the <hi>Greeks</hi> expreſs by <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which is the very word that <hi>Epiphanius</hi> uſes through<g ref="char:EOLhyphen"/>out this whole diſcourſe, when he ſpeaks of <hi>Worſhipping</hi> in op<g ref="char:EOLhyphen"/>poſition to <hi>honouring</hi> of the Holy Virgin: and I appeal to the Conſcience of every unprejudiced Learned man, whether go<g ref="char:EOLhyphen"/>ing in Pilgrimage to her, and praying to her in places of Di<g ref="char:EOLhyphen"/>vine Worſhip, with all the circumſtances of external Adora<g ref="char:EOLhyphen"/>tion with bended knees and hands, and eyes lifted up to Hea<g ref="char:EOLhyphen"/>ven, and before her Images, deſerve not the name of Worſhip,
+<pb n="35" facs="tcp:49583:21"/> as it is ſignified by <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>? Nay, let them tell me if pray<g ref="char:EOLhyphen"/>ing unto her in a poſture of worſhip for Temporal, or Spi<g ref="char:EOLhyphen"/>ritual bleſſings, and carrying her Image about in Solemn Pro<g ref="char:EOLhyphen"/>ceſſion, while they chant forth Hymns unto her, do not an<g ref="char:EOLhyphen"/>ſwer the full import of that word? and whether the holy Father in all probability would not have made the ſame diſtinction betwixt <hi>honouring</hi> and <hi>worſhipping</hi> the Bleſſed Virgin againſt theſe practices, that he did againſt the <hi>Collyridians?</hi> Our Saviour thought the very falling down before the Devil with<g ref="char:EOLhyphen"/>out <hi>Temple, Prieſt, Altar</hi> or <hi>Offering,</hi> would have been a wor<g ref="char:EOLhyphen"/>ſhipping of him, in his eſteem the bare external act of Adora<g ref="char:EOLhyphen"/>tion was both <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and <hi>Latria,</hi> for when the Devil ſaid unto him, <hi>all theſe things I will give thee if thou wilt fall down and worſhip me,</hi> He anſwered him, <hi>Get the gon Satan, for it is written, thou ſhalt</hi> 
+               <note n="*" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>worſhip the Lord thy God, and him only thou ſhalt</hi> 
+               <note n="‖" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>ſerve.</hi>
+            </p>
+            <p>Wherefore this full and ample teſtimony of S. <hi>Epiphanius</hi> is an evident proof, that as yet the honour of the B. Virgin was, at leaſt generally ſpeaking, confined within juſt bounds, and limits, and that the Church hitherto did not allow the Worſhip &amp; Ser<g ref="char:EOLhyphen"/>vice of Prayer, and Invocation to be given unto her. As yet ſhe had not commenced Queen of Heaven, nor Mediatrice between Man &amp; God, nor received any Prayers or Addreſſes as a Service due unto her, nor ſat in the Temple of God, tho' ſhortly after men began to think too highly of her, <note n="‖" place="margin">Auguſt Tom. <hi>7.</hi> de nat. &amp; grat. Con<g ref="char:EOLhyphen"/>tra Pelag. Edit. <hi>Pariſ.</hi> p. <hi>161</hi> B. <hi>but in his Book</hi> de perfections juſtitiae contra Ce<g ref="char:EOLhyphen"/>leſt. <hi>he exempts none from ſin, but Chriſt alone.</hi>
+               </note> and to magnifie her holineſs ſo much as to doubt whether ſhe ever ſinned? While men were thus diſpoſed by Su<g ref="char:EOLhyphen"/>perſtition to exalt her above the rank, and condition of an humane creature, it happened that <hi>Neſtorius</hi> Patriarch of <hi>Conſtantinople,</hi> taught the world, that it was not lawful to call her the <note n="‖" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>mother of God.</hi> This alarum'd the Chriſtian world, and made good men afraid, that <hi>Neſtorius</hi> under this pretence was ſetting up for another <hi>Arius,</hi> or <hi>Sabellius</hi> to undermine the Deity of Chriſt. Upon this a General Council was called at <hi>Epheſus</hi> in the year 431. in which <hi>Neſtorius</hi> was depoſed, and his opinion con<g ref="char:EOLhyphen"/>demned as Heretical, and then in oppoſition to him, and his followers, men, as it is natural for them to do, began to run into the other extream, and let their inventions, and fancies take an unlimited ſcope in magnifying the Bleſſed Virgin. Then they began to call her <hi>Lady,</hi> to talk of her <hi>immaculate
+<pb n="36" facs="tcp:49583:22"/> Conception,</hi> and afterwards, to aſſert it, which ſeems con<g ref="char:EOLhyphen"/>trary to the teſtimony, and opinion of <hi>Epiphanius,</hi> 
+               <note n="*" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>&amp;c.</hi> Hae<g ref="char:EOLhyphen"/>reſ. 69.5. <hi>S.</hi>
+               </note> who ſaith, ſhe was begotten, as all other men were of the Seed of man, and the Womb of a Woman. Then they came to aſſert that ſhe did not bring forth our Lord, after the common cuſtom of women, contrary to the teſtimony of <note n="‖" place="margin">De carne Chriſti.</note> 
+               <hi>Tertullian,</hi> and the Holy Scripture, which ſaith, that <hi>when the days of her purification were accompliſhed, they brought Jeſus to Jeruſa<g ref="char:EOLhyphen"/>lem to preſent him to the Lord, as it is written in the Law of the Lord, every male that openeth the womb, ſhall be holy to the Lord.</hi> Then alſo they began to tell Superſtitious ſtories of her ap<g ref="char:EOLhyphen"/>pearing, and of her <note n="‖" place="margin">Apud. Evagr.</note> Statues turning away in indignation from ſome that prayed unto her, and to aſſert without any ground in Scripture, or pure Antiquity, that <hi>ſhe had vowed her Virginity to God,</hi> before the Angel <hi>Gabriel</hi> came unto her, and then came in the ſtory of her <hi>Aſſumption</hi> (which ſeems to me to have been the laſt improvement of her immaculate Conception, and innocence) contrary to the teſtimony of <hi>Epi<g ref="char:EOLhyphen"/>phanius,</hi> who in <hi>Haereſy</hi> 68. obſerves ſeveral times, that the Scriptures were ſilent, and ſaid nothing of her death, and that he could not tell whether ſhe was dead, and buried, or no, or were yet alive, and remained immortal, according to what is written, <hi>Rev.</hi> 12.14. or whether ſhe died a Martyr, becauſe <hi>Simeon</hi> told her, a Sword ſhould pierce thro' her Soul. He could not determine what was become of her, which ma<g ref="char:EOLhyphen"/>nifeſtly proves, that her Aſſumption was not then the Tradi<g ref="char:EOLhyphen"/>tion of the Church. To be ſhort, then they began to make ſuch extravagant Sermons in her praiſe, as that is, which is falſly aſcribed to <note n="‖" place="margin">
+                  <hi>Vol.</hi> 1. <hi>p.</hi> 1028.</note> 
+               <hi>Athanaſius under the title of</hi> a Ser<g ref="char:EOLhyphen"/>mon, <hi>upon the Annunciation of the moſt Holy Virgin the mother of God.</hi> There the Author of it ſaith, that as the Son of the Virgin is King and Lord, ſo ſhe by him is Queen and Lady; and that ſhe ſtands at his right hand in a Veſture of Gold, in a Golden Veſture of incorruption and immortality, and then he invokes her in this religious manner, O daughter of <hi>Abra<g ref="char:EOLhyphen"/>ham,</hi> and <hi>David,</hi> incline thine ears unto our Prayers, and for<g ref="char:EOLhyphen"/>get not thy people, nor us who are of thy Father's houſe, <hi>&amp;c.</hi>
+            </p>
+            <p>Thus by degrees, from over-admiring, men came to wor<g ref="char:EOLhyphen"/>ſhipping the Bleſſed Virgin, and the bounds being once bro<g ref="char:EOLhyphen"/>ken down, which the Scripture ſets to the Praiſe and Honour of Creatures, <hi>Superſtition</hi> never ſtopt, till the Church came to have a Queen, as well as a King of Heaven, a mother, as
+<pb n="37" facs="tcp:49583:22"/> well as a Father of mercy, and a <hi>Mediatrice,</hi> as well as a Me<g ref="char:EOLhyphen"/>diator betwixt ſinful men, and God.</p>
+            <p>The Devotions, and Aſſertions, which I have cited out of the Offices of the <hi>Latin Church,</hi> and her Ancient and Modern approved Writers are a ſufficient proof of this Charge; and I was the more willing to ſet them before you, becauſe ſome late Authors have done all they can to palliate, and diſguiſe the <hi>Latin worſhip,</hi> and turn the beſt ſide of it outwards; though, God knows, it hath a very ſtrange appearance, as it is <hi>miſrepreſented</hi> in the beſt dreſs, that Art and Wit can put upon it. They tell us they pray to the Saints, and by conſe<g ref="char:EOLhyphen"/>quence to the <hi>Virgin,</hi> 
+               <note n="‖" place="margin">Advertiſe<g ref="char:EOLhyphen"/>ment to the Expoſition, <hi>&amp;c.</hi> p. 12.</note> as we pray to our Brethren, who are upon Earth to pray with us, and for us in the name of <hi>Jeſus</hi> Chriſt; but do we pray to our abſent Brethren? does any man in <hi>England</hi> pray to his Friend in the <hi>Indies</hi> to pray with him, and for him to God in the name of Chriſt? or doth he carry his abſent Brother's Image, and place it in a Temple, or over an Altar, and then pray to his Brother before that Image in the moſt humble poſture of External Adoration? Or when men pray to any of their Brethren upon Earth, that are preſent with them, do they properly ſpeaking <hi>offer up prayers</hi> unto them, as a Spiritual Service, with hands and eyes lifted up to Heaven; or do they give them ſuch Titles, as the <hi>Latin Offices</hi> give the Virgin, or tell them of their Merits, <note n="‖" place="margin">Per Virgi<g ref="char:EOLhyphen"/>nem Matrem concedat nobis Dominus ſalu<g ref="char:EOLhyphen"/>tem. &amp; pacem. <hi>Officium B.M. in Sabb.</hi>
+               </note> or pray unto God in any of their names, and together with their prayers offer up Praiſes, and Thankſgivings to them? I deſire the late Apologiſts to Anſwer theſe Queſtions, and then to tell me, whether indeed they <hi>only pray to her to pray for them to our common Maſter in the name of our common Medi<g ref="char:EOLhyphen"/>ator,</hi> or whether they do no more, than deſire her Interceſſi<g ref="char:EOLhyphen"/>on to God, with the ſame mind that we deſire one anothers prayers? If this be really ſo, how dare they, as I have ſhewn, pray unto her to bleſs them, and to beſtow Temporal, and Spiritual bleſſings upon them, and to preſent their prayers to God? which the Scripture tells us is the proper office of Chriſt. How dare they pray unto God conjunctly through her and Chriſt's merits, and joyn his paſſion, and her merits in the Abſolution of Penitents? How dare they call her the only hope of Sinners, <note n="‖" place="margin">Doth any man pray unto God through the me<g ref="char:EOLhyphen"/>rits, or interceſ<g ref="char:EOLhyphen"/>ſion of any of his Brethren upon Earth?</note> and pray unto God through her merits, and interceſſion, and without mentioning the merits, and in<g ref="char:EOLhyphen"/>terceſſion of Chriſt? Nay, how dare they pray formally, and abſolutely unto her alone, as unto a Deity, and offer Candles,
+<pb n="38" facs="tcp:49583:23"/> and Incenſe, and ſolemn Praiſes, and Thankſgivings unto her, which they deſire her to receive how mean ſoever they be, and unequal to her merits. <note n="‖" place="margin">Expoſition, Sect. 4.</note> But we are told, we ought to underſtand, that <hi>in what terms ſoever thoſe prayers are couch<g ref="char:EOLhyphen"/>ed, it is the intention of the Church, and of her faithful to reduce them always to this form of PRAY FOR <g ref="char:V">Ʋ</g>S.</hi> But can the intention of the Church, and of her faithful, alter the na<g ref="char:EOLhyphen"/>ture of things; or is this declaration of their intention to be admitted againſt the plain Literal, and Grammatical ſence of thoſe prayers, wherein they pray to her againſt their own rule, <hi>to give them good things, and to deliver them from evil,</hi> and <hi>not to deſpiſe their prayer, but to admit them within the San<g ref="char:EOLhyphen"/>ctuary of her Audience,</hi> which is equivalent to the form of <hi>hear our prayer,</hi> which they acknowledge to be the proper manner of ſpeaking to God.</p>
+            <p>Would it not have been more for the honour of that Church, which ſtiles her ſelf <hi>Catholick,</hi> and <hi>Apoſtolick,</hi> and a far more Authentical, and Satisfactory Declaration of her intention, to have reformed, or laid aſide ſuch prayers in a general Council, and to have condemned all the other Pray<g ref="char:EOLhyphen"/>ers and Offices in their allowed, approved, and celebrated Writers, who have taught the people to give the Virgin Di<g ref="char:EOLhyphen"/>vine Titles, and pray unto her in the ſame ſtile, that <hi>Jews,</hi> and <hi>Chriſtians</hi> pray unto God. How can we truſt our Souls, or the Souls of our Children in ſuch a Church, whoſe Church<g ref="char:EOLhyphen"/>men are fain to make ſuch an Expoſition of her Liturgical De<g ref="char:EOLhyphen"/>votions, as is not without violence reconcileable to the Let<g ref="char:EOLhyphen"/>ter of them, and which ſtill lets ſo many Books, and Offices be recommended to her people, that are abſolutely contra<g ref="char:EOLhyphen"/>dictory to this late Expoſition, which for many good reaſons, elſewhere given, we cannot admit for a fixt and Authentick Expoſition of the <hi>Latin</hi> Church.</p>
+            <p>Wherefore my Brethren of this truly Catholick, and Apo<g ref="char:EOLhyphen"/>ſtolick Church of <hi>England,</hi> let us take care to keep within the bounds and limits, which our pure and holy Mother, af<g ref="char:EOLhyphen"/>ter the example of the Primitive Church, hath ſet to the praiſe, and honour of the bleſſed Virgin. Let us chearfully, and reſpectfully give her the honourable Titles of Holy, and Bleſſed, and perpetual Virgin; and call her without ſcruple the Holy and Bleſſed Mother of God: Nay, let us for peace-ſake go as far as we can with our fellow-Chriſtians of the <hi>La<g ref="char:EOLhyphen"/>tin Communion,</hi> ſo we go with caution, and circumſpection in
+<pb n="39" facs="tcp:49583:23"/> honouring of this Glorious Saint. Let us acknowledge with them, that ſhe is to be honoured above all Saints; but let us not honour her with Religious honour, nor pray unto her ei<g ref="char:EOLhyphen"/>ther as a Donor, or as an Interceſſor in the preſence of God. Let us acknowledge with them her perpetual Virginity, ac<g ref="char:EOLhyphen"/>cording to ancient Tradition; and if it will gain, or oblige any of them, let us not oppoſe them in the opinion they have, that ſhe promiſed, and vowed her Virginity to God; for it is an innocent Opinion, though it is precarious, and hath no ground in Scripture, or Primitive Antiquity. In a word, let us admire her ſingular Purity and Holineſs, though we cannot admit her <note n="‖" place="margin">6. Serm. p. 5.</note> Innocence. Let us give her all the honour that is due to ſo great a Saint; but not one jot more than is allowed to a Creature; and if by doing ſo much, and no more, you offend on the left hand, and on the right, the offence will be taken, and not given; but if by refuſing to do ſo much you offend, the offence will be given, to both Churches, and that will be a great offence. To conclude, let us always mention her with reſpect; let her Name ſtill perfume the Air like precious ointment; let us celebrate her great Virtues; let us keep her Feſtivals, as it becomes true Sons of the Pri<g ref="char:EOLhyphen"/>mitive Church of <hi>England;</hi> let us imitate her bleſſed Ex<g ref="char:EOLhyphen"/>ample, and thank God for the benefit of it; let us endeavour, as ſhe did, to hear the Word of God, and keep it, and to do the will of our Heavenly Father, and then we ſhall all become [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>] high favourites of Heaven, even the Mo<g ref="char:EOLhyphen"/>ther, and Siſter, and Brethren of Chriſt; <hi>To whom with the Father, and the Holy Ghoſt, be aſcribed by the univerſal Church, all Worſhip, Adoration, Majeſty, and Dominion both now, and evermore.</hi> Amen.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
